@@ -1,0 +1,1725 @@
+2022-10-02 11:55:27,841 - INFO - conftest.read_config_file - Read configuration file
+2022-10-02 11:55:27,841 - INFO - conftest.config_browser - chrome browser configured
+2022-10-02 11:55:34,565 - INFO - conftest.init_driver - Driver was initialized
+2022-10-02 11:55:34,750 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-02 11:55:43,286 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-02 11:55:48,057 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-02 11:55:48,200 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('xpath', "//input[@id='email_create']")
+2022-10-02 11:55:48,273 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id='SubmitCreate']")
+2022-10-02 12:07:47,253 - INFO - conftest.read_config_file - Read configuration file
+2022-10-02 12:07:47,253 - INFO - conftest.config_browser - chrome browser configured
+2022-10-02 12:07:50,142 - INFO - conftest.init_driver - Driver was initialized
+2022-10-02 12:07:50,315 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-02 12:07:59,174 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-02 12:08:01,968 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-02 12:08:15,034 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('xpath', "//input[@id='email_create']")
+2022-10-02 12:08:21,218 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id='SubmitCreate']")
+2022-10-02 12:08:45,575 - ERROR - base_page.wait_for_element - Element ('xpath', "//input[@name = 'id_gender']") was not found
+Traceback (most recent call last):
+  File "C:\Users\ravic\PycharmProjects\automationProject\Pages\base_page.py", line 71, in wait_for_element
+    return WebDriverWait(self.driver, 10).until(expected_conditions.element_to_be_clickable(element))
+  File "C:\Users\ravic\PycharmProjects\automationProject\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 90, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2022-10-02 12:11:59,493 - INFO - conftest.read_config_file - Read configuration file
+2022-10-02 12:11:59,494 - INFO - conftest.config_browser - chrome browser configured
+2022-10-02 12:12:02,354 - INFO - conftest.init_driver - Driver was initialized
+2022-10-02 12:12:02,597 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-02 12:12:09,257 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-02 12:12:12,310 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-02 12:12:12,440 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('xpath', "//input[@id='email_create']")
+2022-10-02 12:12:12,509 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id='SubmitCreate']")
+2022-10-02 12:13:08,364 - ERROR - base_page.wait_for_element - Element ('xpath', "//input[@name = 'id_gender']") was not found
+Traceback (most recent call last):
+  File "C:\Users\ravic\PycharmProjects\automationProject\Pages\base_page.py", line 71, in wait_for_element
+    return WebDriverWait(self.driver, 10).until(expected_conditions.element_to_be_clickable(element))
+  File "C:\Users\ravic\PycharmProjects\automationProject\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 90, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2022-10-02 12:19:07,653 - INFO - conftest.read_config_file - Read configuration file
+2022-10-02 12:19:07,653 - INFO - conftest.config_browser - chrome browser configured
+2022-10-02 12:19:10,536 - INFO - conftest.init_driver - Driver was initialized
+2022-10-02 12:19:10,725 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-02 12:19:17,501 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-02 12:19:22,070 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-02 12:19:22,197 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('xpath', "//input[@id='email_create']")
+2022-10-02 12:19:22,269 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id='SubmitCreate']")
+2022-10-02 12:19:44,291 - ERROR - base_page.wait_for_element - Element ('xpath', "//input[@name = 'id_gender']") was not found
+Traceback (most recent call last):
+  File "C:\Users\ravic\PycharmProjects\automationProject\Pages\base_page.py", line 71, in wait_for_element
+    return WebDriverWait(self.driver, 10).until(expected_conditions.element_to_be_clickable(element))
+  File "C:\Users\ravic\PycharmProjects\automationProject\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 90, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2022-10-02 12:25:02,190 - INFO - conftest.read_config_file - Read configuration file
+2022-10-02 12:25:02,191 - INFO - conftest.config_browser - chrome browser configured
+2022-10-02 12:25:05,458 - INFO - conftest.init_driver - Driver was initialized
+2022-10-02 12:25:05,802 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-02 12:25:13,898 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-02 12:25:16,868 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-02 12:25:17,035 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('xpath', "//input[@id='email_create']")
+2022-10-02 12:25:17,119 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id='SubmitCreate']")
+2022-10-02 12:25:20,171 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@name = 'id_gender']")
+2022-10-02 12:27:08,533 - INFO - conftest.read_config_file - Read configuration file
+2022-10-02 12:27:08,533 - INFO - conftest.config_browser - chrome browser configured
+2022-10-02 12:27:11,630 - INFO - conftest.init_driver - Driver was initialized
+2022-10-02 12:27:11,804 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-02 12:27:19,417 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-02 12:27:25,899 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-02 12:27:26,022 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('xpath', "//input[@id='email_create']")
+2022-10-02 12:27:26,100 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id='SubmitCreate']")
+2022-10-02 12:27:29,682 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@name = 'id_gender']")
+2022-10-02 12:27:29,785 - INFO - base_page.click - Clicked on element ('xpath', "//input[@name = 'id_gender']")
+2022-10-02 12:27:29,834 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'customer_firstname']")
+2022-10-02 12:27:29,964 - INFO - base_page.enter_text - Typed Test First in element ('xpath', "//input[@id = 'customer_firstname']")
+2022-10-02 12:27:30,031 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'customer_lastname']")
+2022-10-02 12:27:30,187 - INFO - base_page.enter_text - Typed Test Second in element ('xpath', "//input[@id = 'customer_lastname']")
+2022-10-02 12:27:30,310 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'email']")
+2022-10-02 12:28:51,153 - INFO - conftest.read_config_file - Read configuration file
+2022-10-02 12:28:51,153 - INFO - conftest.config_browser - chrome browser configured
+2022-10-02 12:28:54,155 - INFO - conftest.init_driver - Driver was initialized
+2022-10-02 12:28:54,433 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-02 12:29:02,013 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-02 12:29:06,243 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-02 12:29:06,381 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('xpath', "//input[@id='email_create']")
+2022-10-02 12:29:06,461 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id='SubmitCreate']")
+2022-10-02 12:29:08,583 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@name = 'id_gender']")
+2022-10-02 12:29:08,583 - ERROR - base_page.wait_for_element - Element xpath was not found
+Traceback (most recent call last):
+  File "C:\Users\ravic\PycharmProjects\automationProject\Pages\base_page.py", line 71, in wait_for_element
+    return WebDriverWait(self.driver, 10).until(expected_conditions.element_to_be_clickable(element))
+  File "C:\Users\ravic\PycharmProjects\automationProject\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 81, in until
+    value = method(self._driver)
+  File "C:\Users\ravic\PycharmProjects\automationProject\venv\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 312, in _predicate
+    target = driver.find_element(*target)  # grab element at locator
+TypeError: WebDriver.find_element() takes from 1 to 3 positional arguments but 6 were given
+2022-10-02 12:29:08,598 - ERROR - base_page.click - Clicking on element xpath failed
+Traceback (most recent call last):
+  File "C:\Users\ravic\PycharmProjects\automationProject\Pages\base_page.py", line 71, in wait_for_element
+    return WebDriverWait(self.driver, 10).until(expected_conditions.element_to_be_clickable(element))
+  File "C:\Users\ravic\PycharmProjects\automationProject\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 81, in until
+    value = method(self._driver)
+  File "C:\Users\ravic\PycharmProjects\automationProject\venv\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 312, in _predicate
+    target = driver.find_element(*target)  # grab element at locator
+TypeError: WebDriver.find_element() takes from 1 to 3 positional arguments but 6 were given
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ravic\PycharmProjects\automationProject\Pages\base_page.py", line 14, in click
+    self.wait_for_element(element).click()
+  File "C:\Users\ravic\PycharmProjects\automationProject\Pages\base_page.py", line 75, in wait_for_element
+    raise Exception(message)
+Exception: Element xpath was not found
+2022-10-02 12:55:10,105 - INFO - conftest.read_config_file - Read configuration file
+2022-10-02 12:55:10,105 - INFO - conftest.config_browser - chrome browser configured
+2022-10-02 12:55:13,468 - INFO - conftest.init_driver - Driver was initialized
+2022-10-02 12:55:13,871 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-02 12:55:20,777 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-02 12:55:23,354 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-02 12:55:23,474 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('xpath', "//input[@id='email_create']")
+2022-10-02 12:55:23,552 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id='SubmitCreate']")
+2022-10-02 12:55:25,086 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'id_gender1']")
+2022-10-02 12:55:25,197 - INFO - base_page.click - Clicked on element ('xpath', "//input[@id = 'id_gender1']")
+2022-10-02 12:55:25,264 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'customer_firstname']")
+2022-10-02 12:55:25,443 - INFO - base_page.enter_text - Typed Test First in element ('xpath', "//input[@id = 'customer_firstname']")
+2022-10-02 12:55:25,521 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'customer_lastname']")
+2022-10-02 12:55:25,787 - INFO - base_page.enter_text - Typed Test Second in element ('xpath', "//input[@id = 'customer_lastname']")
+2022-10-02 12:55:25,850 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'email']")
+2022-10-02 12:58:01,361 - INFO - conftest.read_config_file - Read configuration file
+2022-10-02 12:58:01,365 - INFO - conftest.config_browser - chrome browser configured
+2022-10-02 12:58:04,741 - INFO - conftest.init_driver - Driver was initialized
+2022-10-02 12:58:04,891 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-02 12:58:12,285 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-02 12:58:14,636 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-02 12:58:14,762 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('xpath', "//input[@id='email_create']")
+2022-10-02 12:58:14,837 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id='SubmitCreate']")
+2022-10-02 12:58:16,709 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'id_gender1']")
+2022-10-02 12:58:16,781 - INFO - base_page.click - Clicked on element ('xpath', "//input[@id = 'id_gender1']")
+2022-10-02 12:58:16,832 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'customer_firstname']")
+2022-10-02 12:58:16,943 - INFO - base_page.enter_text - Typed Test First in element ('xpath', "//input[@id = 'customer_firstname']")
+2022-10-02 12:58:17,030 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'customer_lastname']")
+2022-10-02 12:58:17,181 - INFO - base_page.enter_text - Typed Test Second in element ('xpath', "//input[@id = 'customer_lastname']")
+2022-10-02 12:58:24,487 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'email']")
+2022-10-02 13:01:07,018 - INFO - conftest.read_config_file - Read configuration file
+2022-10-02 13:01:07,018 - INFO - conftest.config_browser - chrome browser configured
+2022-10-02 13:01:09,868 - INFO - conftest.init_driver - Driver was initialized
+2022-10-02 13:01:10,170 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-02 13:01:16,391 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-02 13:01:18,970 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-02 13:01:19,117 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('xpath', "//input[@id='email_create']")
+2022-10-02 13:01:19,190 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id='SubmitCreate']")
+2022-10-02 13:01:20,887 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'id_gender1']")
+2022-10-02 13:01:20,977 - INFO - base_page.click - Clicked on element ('xpath', "//input[@id = 'id_gender1']")
+2022-10-02 13:01:21,038 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'customer_firstname']")
+2022-10-02 13:01:21,175 - INFO - base_page.enter_text - Typed Test First in element ('xpath', "//input[@id = 'customer_firstname']")
+2022-10-02 13:01:21,254 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'customer_lastname']")
+2022-10-02 13:01:21,403 - INFO - base_page.enter_text - Typed Test Second in element ('xpath', "//input[@id = 'customer_lastname']")
+2022-10-02 13:02:47,842 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'email']")
+2022-10-02 13:02:48,869 - INFO - base_page.clear_text - Cleared in element ('xpath', "//input[@id = 'email']")
+2022-10-02 13:04:26,088 - INFO - conftest.read_config_file - Read configuration file
+2022-10-02 13:04:26,088 - INFO - conftest.config_browser - chrome browser configured
+2022-10-02 13:04:28,780 - INFO - conftest.init_driver - Driver was initialized
+2022-10-02 13:04:28,958 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-02 13:04:40,962 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-02 13:04:45,826 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-02 13:04:45,996 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('xpath', "//input[@id='email_create']")
+2022-10-02 13:04:46,076 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id='SubmitCreate']")
+2022-10-02 13:04:48,485 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'id_gender1']")
+2022-10-02 13:04:48,570 - INFO - base_page.click - Clicked on element ('xpath', "//input[@id = 'id_gender1']")
+2022-10-02 13:04:48,617 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'customer_firstname']")
+2022-10-02 13:04:48,737 - INFO - base_page.enter_text - Typed Test First in element ('xpath', "//input[@id = 'customer_firstname']")
+2022-10-02 13:04:48,784 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'customer_lastname']")
+2022-10-02 13:04:48,916 - INFO - base_page.enter_text - Typed Test Second in element ('xpath', "//input[@id = 'customer_lastname']")
+2022-10-02 13:04:48,988 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'email']")
+2022-10-02 13:04:49,102 - INFO - base_page.clear_text - Cleared in element ('xpath', "//input[@id = 'email']")
+2022-10-02 13:04:49,257 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('xpath', "//input[@id = 'email']")
+2022-10-02 13:04:49,305 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'passwd']")
+2022-10-02 13:04:49,405 - INFO - base_page.enter_text - Typed Test12345 in element ('xpath', "//input[@id = 'passwd']")
+2022-10-02 13:05:26,987 - ERROR - base_page.wait_for_element - Element ('xpath', "//select[@id = 'days']") was not found
+Traceback (most recent call last):
+  File "C:\Users\ravic\PycharmProjects\automationProject\Pages\base_page.py", line 71, in wait_for_element
+    return WebDriverWait(self.driver, 10).until(expected_conditions.element_to_be_clickable(element))
+  File "C:\Users\ravic\PycharmProjects\automationProject\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 90, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2022-10-02 13:06:34,063 - INFO - conftest.read_config_file - Read configuration file
+2022-10-02 13:06:34,063 - INFO - conftest.config_browser - chrome browser configured
+2022-10-02 13:06:36,813 - INFO - conftest.init_driver - Driver was initialized
+2022-10-02 13:06:37,141 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-02 13:06:45,217 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-02 13:06:48,682 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-02 13:06:48,813 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('xpath', "//input[@id='email_create']")
+2022-10-02 13:06:48,879 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id='SubmitCreate']")
+2022-10-02 13:06:50,645 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'id_gender1']")
+2022-10-02 13:06:50,779 - INFO - base_page.click - Clicked on element ('xpath', "//input[@id = 'id_gender1']")
+2022-10-02 13:06:50,853 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'customer_firstname']")
+2022-10-02 13:06:51,037 - INFO - base_page.enter_text - Typed Test First in element ('xpath', "//input[@id = 'customer_firstname']")
+2022-10-02 13:06:51,115 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'customer_lastname']")
+2022-10-02 13:06:51,291 - INFO - base_page.enter_text - Typed Test Second in element ('xpath', "//input[@id = 'customer_lastname']")
+2022-10-02 13:06:51,345 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'email']")
+2022-10-02 13:06:51,438 - INFO - base_page.clear_text - Cleared in element ('xpath', "//input[@id = 'email']")
+2022-10-02 13:06:51,579 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('xpath', "//input[@id = 'email']")
+2022-10-02 13:06:51,625 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'passwd']")
+2022-10-02 13:06:51,733 - INFO - base_page.enter_text - Typed Test12345 in element ('xpath', "//input[@id = 'passwd']")
+2022-10-02 13:07:07,288 - ERROR - base_page.wait_for_element - Element ('xpath', "//select[@id = 'days']") was not found
+Traceback (most recent call last):
+  File "C:\Users\ravic\PycharmProjects\automationProject\Pages\base_page.py", line 71, in wait_for_element
+    return WebDriverWait(self.driver, 10).until(expected_conditions.element_to_be_clickable(element))
+  File "C:\Users\ravic\PycharmProjects\automationProject\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 90, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2022-10-02 13:07:07,341 - ERROR - base_page.select_value - 20 is not present in element ('xpath', "//select[@id = 'days']") failed or not selected
+Traceback (most recent call last):
+  File "C:\Users\ravic\PycharmProjects\automationProject\Pages\base_page.py", line 71, in wait_for_element
+    return WebDriverWait(self.driver, 10).until(expected_conditions.element_to_be_clickable(element))
+  File "C:\Users\ravic\PycharmProjects\automationProject\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 90, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ravic\PycharmProjects\automationProject\Pages\base_page.py", line 51, in select_value
+    self.wait_for_element(element)
+  File "C:\Users\ravic\PycharmProjects\automationProject\Pages\base_page.py", line 75, in wait_for_element
+    raise Exception(message)
+Exception: Element ('xpath', "//select[@id = 'days']") was not found
+2022-10-02 13:08:28,058 - INFO - conftest.read_config_file - Read configuration file
+2022-10-02 13:08:28,058 - INFO - conftest.config_browser - chrome browser configured
+2022-10-02 13:08:30,548 - INFO - conftest.init_driver - Driver was initialized
+2022-10-02 13:08:30,702 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-02 13:08:37,297 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-02 13:08:39,154 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-02 13:08:39,280 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('xpath', "//input[@id='email_create']")
+2022-10-02 13:08:39,349 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id='SubmitCreate']")
+2022-10-02 13:08:40,936 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'id_gender1']")
+2022-10-02 13:08:41,066 - INFO - base_page.click - Clicked on element ('xpath', "//input[@id = 'id_gender1']")
+2022-10-02 13:08:41,117 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'customer_firstname']")
+2022-10-02 13:08:41,281 - INFO - base_page.enter_text - Typed Test First in element ('xpath', "//input[@id = 'customer_firstname']")
+2022-10-02 13:08:41,348 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'customer_lastname']")
+2022-10-02 13:08:41,566 - INFO - base_page.enter_text - Typed Test Second in element ('xpath', "//input[@id = 'customer_lastname']")
+2022-10-02 13:08:41,620 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'email']")
+2022-10-02 13:08:41,703 - INFO - base_page.clear_text - Cleared in element ('xpath', "//input[@id = 'email']")
+2022-10-02 13:08:41,837 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('xpath', "//input[@id = 'email']")
+2022-10-02 13:08:41,884 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'passwd']")
+2022-10-02 13:08:41,993 - INFO - base_page.enter_text - Typed Test12345 in element ('xpath', "//input[@id = 'passwd']")
+2022-10-02 13:09:05,076 - ERROR - base_page.wait_for_element - Element ('xpath', "//select[@id = 'days']") was not found
+Traceback (most recent call last):
+  File "C:\Users\ravic\PycharmProjects\automationProject\Pages\base_page.py", line 71, in wait_for_element
+    return WebDriverWait(self.driver, 10).until(expected_conditions.element_to_be_clickable(element))
+  File "C:\Users\ravic\PycharmProjects\automationProject\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 90, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2022-10-02 13:15:15,575 - INFO - conftest.read_config_file - Read configuration file
+2022-10-02 13:15:15,575 - INFO - conftest.config_browser - chrome browser configured
+2022-10-02 13:15:18,491 - INFO - conftest.init_driver - Driver was initialized
+2022-10-02 13:15:18,637 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-02 13:15:25,274 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-02 13:15:27,924 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-02 13:15:28,038 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('xpath', "//input[@id='email_create']")
+2022-10-02 13:15:28,111 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id='SubmitCreate']")
+2022-10-02 13:15:29,790 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'id_gender1']")
+2022-10-02 13:15:29,877 - INFO - base_page.click - Clicked on element ('xpath', "//input[@id = 'id_gender1']")
+2022-10-02 13:15:29,922 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'customer_firstname']")
+2022-10-02 13:15:30,199 - INFO - base_page.enter_text - Typed Test First in element ('xpath', "//input[@id = 'customer_firstname']")
+2022-10-02 13:15:30,262 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'customer_lastname']")
+2022-10-02 13:15:30,419 - INFO - base_page.enter_text - Typed Test Second in element ('xpath', "//input[@id = 'customer_lastname']")
+2022-10-02 13:15:30,479 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'email']")
+2022-10-02 13:15:30,569 - INFO - base_page.clear_text - Cleared in element ('xpath', "//input[@id = 'email']")
+2022-10-02 13:15:30,717 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('xpath', "//input[@id = 'email']")
+2022-10-02 13:15:30,764 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'passwd']")
+2022-10-02 13:15:30,865 - INFO - base_page.enter_text - Typed Test12345 in element ('xpath', "//input[@id = 'passwd']")
+2022-10-02 13:24:01,427 - INFO - conftest.read_config_file - Read configuration file
+2022-10-02 13:24:01,427 - INFO - conftest.config_browser - chrome browser configured
+2022-10-02 13:24:05,518 - INFO - conftest.init_driver - Driver was initialized
+2022-10-02 13:24:05,695 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-02 13:24:14,324 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-02 13:24:21,824 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-02 13:24:21,954 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('xpath', "//input[@id='email_create']")
+2022-10-02 13:24:22,030 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id='SubmitCreate']")
+2022-10-02 13:24:25,501 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'id_gender1']")
+2022-10-02 13:24:25,601 - INFO - base_page.click - Clicked on element ('xpath', "//input[@id = 'id_gender1']")
+2022-10-02 13:24:25,651 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'customer_firstname']")
+2022-10-02 13:24:25,800 - INFO - base_page.enter_text - Typed Test First in element ('xpath', "//input[@id = 'customer_firstname']")
+2022-10-02 13:24:25,869 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'customer_lastname']")
+2022-10-02 13:24:26,009 - INFO - base_page.enter_text - Typed Test Second in element ('xpath', "//input[@id = 'customer_lastname']")
+2022-10-02 13:24:26,120 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'email']")
+2022-10-02 13:24:26,211 - INFO - base_page.clear_text - Cleared in element ('xpath', "//input[@id = 'email']")
+2022-10-02 13:24:26,346 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('xpath', "//input[@id = 'email']")
+2022-10-02 13:24:26,396 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'passwd']")
+2022-10-02 13:24:26,498 - INFO - base_page.enter_text - Typed Test12345 in element ('xpath', "//input[@id = 'passwd']")
+2022-10-02 13:28:28,573 - INFO - conftest.read_config_file - Read configuration file
+2022-10-02 13:28:28,574 - INFO - conftest.config_browser - chrome browser configured
+2022-10-02 13:28:31,404 - INFO - conftest.init_driver - Driver was initialized
+2022-10-02 13:28:31,550 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-02 13:28:37,389 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-02 13:28:39,513 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-02 13:28:39,667 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('xpath', "//input[@id='email_create']")
+2022-10-02 13:28:39,750 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id='SubmitCreate']")
+2022-10-02 13:28:41,637 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'id_gender1']")
+2022-10-02 13:28:41,736 - INFO - base_page.click - Clicked on element ('xpath', "//input[@id = 'id_gender1']")
+2022-10-02 13:28:41,803 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'customer_firstname']")
+2022-10-02 13:28:41,952 - INFO - base_page.enter_text - Typed Test First in element ('xpath', "//input[@id = 'customer_firstname']")
+2022-10-02 13:28:42,006 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'customer_lastname']")
+2022-10-02 13:28:42,172 - INFO - base_page.enter_text - Typed Test Second in element ('xpath', "//input[@id = 'customer_lastname']")
+2022-10-02 13:28:42,233 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'email']")
+2022-10-02 13:28:42,305 - INFO - base_page.clear_text - Cleared in element ('xpath', "//input[@id = 'email']")
+2022-10-02 13:28:42,433 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('xpath', "//input[@id = 'email']")
+2022-10-02 13:28:42,483 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'passwd']")
+2022-10-02 13:28:42,569 - INFO - base_page.enter_text - Typed Test12345 in element ('xpath', "//input[@id = 'passwd']")
+2022-10-02 13:33:07,241 - INFO - conftest.read_config_file - Read configuration file
+2022-10-02 13:33:07,241 - INFO - conftest.config_browser - chrome browser configured
+2022-10-02 13:33:09,719 - INFO - conftest.init_driver - Driver was initialized
+2022-10-02 13:33:09,899 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-02 13:33:18,635 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-02 13:33:30,046 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-02 13:33:30,165 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('xpath', "//input[@id='email_create']")
+2022-10-02 13:33:30,249 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id='SubmitCreate']")
+2022-10-02 13:33:37,365 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'id_gender1']")
+2022-10-02 13:33:37,424 - INFO - base_page.click - Clicked on element ('xpath', "//input[@id = 'id_gender1']")
+2022-10-02 13:33:37,463 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'customer_firstname']")
+2022-10-02 13:33:37,570 - INFO - base_page.enter_text - Typed Test First in element ('xpath', "//input[@id = 'customer_firstname']")
+2022-10-02 13:33:37,624 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'customer_lastname']")
+2022-10-02 13:33:37,738 - INFO - base_page.enter_text - Typed Test Second in element ('xpath', "//input[@id = 'customer_lastname']")
+2022-10-02 13:33:37,785 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'email']")
+2022-10-02 13:33:37,867 - INFO - base_page.clear_text - Cleared in element ('xpath', "//input[@id = 'email']")
+2022-10-02 13:33:38,016 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('xpath', "//input[@id = 'email']")
+2022-10-02 13:33:38,043 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'passwd']")
+2022-10-02 13:33:38,103 - INFO - base_page.enter_text - Typed Test12345 in element ('xpath', "//input[@id = 'passwd']")
+2022-10-02 15:05:06,067 - INFO - conftest.read_config_file - Read configuration file
+2022-10-02 15:05:06,067 - INFO - conftest.config_browser - chrome browser configured
+2022-10-02 15:05:08,805 - INFO - conftest.init_driver - Driver was initialized
+2022-10-02 15:05:08,944 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-02 15:05:13,765 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-02 15:05:15,517 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-02 15:05:15,672 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('xpath', "//input[@id='email_create']")
+2022-10-02 15:05:15,760 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id='SubmitCreate']")
+2022-10-02 15:05:17,366 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'id_gender1']")
+2022-10-02 15:05:17,465 - INFO - base_page.click - Clicked on element ('xpath', "//input[@id = 'id_gender1']")
+2022-10-02 15:05:17,517 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'customer_firstname']")
+2022-10-02 15:05:17,800 - INFO - base_page.enter_text - Typed Test First in element ('xpath', "//input[@id = 'customer_firstname']")
+2022-10-02 15:05:17,852 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'customer_lastname']")
+2022-10-02 15:05:18,025 - INFO - base_page.enter_text - Typed Test Second in element ('xpath', "//input[@id = 'customer_lastname']")
+2022-10-02 15:05:18,068 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'email']")
+2022-10-02 15:05:18,145 - INFO - base_page.clear_text - Cleared in element ('xpath', "//input[@id = 'email']")
+2022-10-02 15:05:18,298 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('xpath', "//input[@id = 'email']")
+2022-10-02 15:05:18,344 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'passwd']")
+2022-10-02 15:05:18,442 - INFO - base_page.enter_text - Typed Test12345 in element ('xpath', "//input[@id = 'passwd']")
+2022-10-02 15:05:24,686 - INFO - base_page.select_value - Selected 20 from element ('xpath', "//select[@id = 'days']")
+2022-10-02 15:05:24,760 - INFO - base_page.select_value - Selected 4 from element ('xpath', "//select[@id = 'months']")
+2022-10-02 15:05:24,823 - INFO - base_page.select_value - Selected 2001 from element ('xpath', "//select[@id = 'years']")
+2022-10-02 15:05:24,893 - INFO - base_page.enter_text - Typed Test First in element ('xpath', "//input[@id = 'firstname']")
+2022-10-02 15:05:24,974 - INFO - base_page.enter_text - Typed Test Second in element ('xpath', "//input[@id = 'lastname']")
+2022-10-02 15:05:25,044 - INFO - base_page.enter_text - Typed ABC in element ('xpath', "//input[@id = 'company']")
+2022-10-02 15:05:25,148 - INFO - base_page.enter_text - Typed Flat no 123,Test colony in element ('xpath', "//input[@id = 'address1']")
+2022-10-02 15:05:25,229 - INFO - base_page.enter_text - Typed Test Address Line 2 in element ('xpath', "//input[@id = 'address2']")
+2022-10-02 15:05:25,303 - INFO - base_page.enter_text - Typed TestCity in element ('xpath', "//input[@id = 'city']")
+2022-10-02 15:05:35,372 - ERROR - base_page.select_value - california is not present in element ('xpath', "//select[@id='id_state']") failed or not selected
+Traceback (most recent call last):
+  File "C:\Users\ravic\PycharmProjects\automationProject\Pages\base_page.py", line 54, in select_value
+    select.select_by_value(str(text))
+  File "C:\Users\ravic\PycharmProjects\automationProject\venv\lib\site-packages\selenium\webdriver\support\select.py", line 85, in select_by_value
+    raise NoSuchElementException("Cannot locate option with value: %s" % value)
+selenium.common.exceptions.NoSuchElementException: Message: Cannot locate option with value: california
+
+2022-10-02 15:09:59,510 - INFO - conftest.read_config_file - Read configuration file
+2022-10-02 15:09:59,510 - INFO - conftest.config_browser - chrome browser configured
+2022-10-02 15:10:02,205 - INFO - conftest.init_driver - Driver was initialized
+2022-10-02 15:10:02,387 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-02 15:10:07,308 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-02 15:10:09,108 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-02 15:10:09,254 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('xpath', "//input[@id='email_create']")
+2022-10-02 15:10:09,319 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id='SubmitCreate']")
+2022-10-02 15:10:11,607 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'id_gender1']")
+2022-10-02 15:10:11,705 - INFO - base_page.click - Clicked on element ('xpath', "//input[@id = 'id_gender1']")
+2022-10-02 15:10:11,744 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'customer_firstname']")
+2022-10-02 15:10:11,865 - INFO - base_page.enter_text - Typed Test First in element ('xpath', "//input[@id = 'customer_firstname']")
+2022-10-02 15:10:11,923 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'customer_lastname']")
+2022-10-02 15:10:12,038 - INFO - base_page.enter_text - Typed Test Second in element ('xpath', "//input[@id = 'customer_lastname']")
+2022-10-02 15:10:12,096 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'email']")
+2022-10-02 15:10:12,215 - INFO - base_page.clear_text - Cleared in element ('xpath', "//input[@id = 'email']")
+2022-10-02 15:10:12,347 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('xpath', "//input[@id = 'email']")
+2022-10-02 15:10:12,388 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'passwd']")
+2022-10-02 15:10:12,473 - INFO - base_page.enter_text - Typed Test12345 in element ('xpath', "//input[@id = 'passwd']")
+2022-10-02 15:10:12,548 - INFO - base_page.select_value - Selected 20 from element ('xpath', "//select[@id = 'days']")
+2022-10-02 15:10:12,630 - INFO - base_page.select_value - Selected 4 from element ('xpath', "//select[@id = 'months']")
+2022-10-02 15:10:12,712 - INFO - base_page.select_value - Selected 2001 from element ('xpath', "//select[@id = 'years']")
+2022-10-02 15:10:12,804 - INFO - base_page.enter_text - Typed Test First in element ('xpath', "//input[@id = 'firstname']")
+2022-10-02 15:10:12,903 - INFO - base_page.enter_text - Typed Test Second in element ('xpath', "//input[@id = 'lastname']")
+2022-10-02 15:10:12,981 - INFO - base_page.enter_text - Typed ABC in element ('xpath', "//input[@id = 'company']")
+2022-10-02 15:10:13,107 - INFO - base_page.enter_text - Typed Flat no 123,Test colony in element ('xpath', "//input[@id = 'address1']")
+2022-10-02 15:10:13,210 - INFO - base_page.enter_text - Typed Test Address Line 2 in element ('xpath', "//input[@id = 'address2']")
+2022-10-02 15:10:13,304 - INFO - base_page.enter_text - Typed TestCity in element ('xpath', "//input[@id = 'city']")
+2022-10-02 15:10:23,394 - ERROR - base_page.select_value - california is not present in element ('xpath', "//select[@id='id_state']") failed or not selected
+Traceback (most recent call last):
+  File "C:\Users\ravic\PycharmProjects\automationProject\Pages\base_page.py", line 54, in select_value
+    select.select_by_value(str(text))
+  File "C:\Users\ravic\PycharmProjects\automationProject\venv\lib\site-packages\selenium\webdriver\support\select.py", line 85, in select_by_value
+    raise NoSuchElementException("Cannot locate option with value: %s" % value)
+selenium.common.exceptions.NoSuchElementException: Message: Cannot locate option with value: california
+
+2022-10-02 15:13:45,380 - INFO - conftest.read_config_file - Read configuration file
+2022-10-02 15:13:45,381 - INFO - conftest.config_browser - chrome browser configured
+2022-10-02 15:13:48,726 - INFO - conftest.init_driver - Driver was initialized
+2022-10-02 15:13:48,878 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-02 15:13:55,120 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-02 15:13:57,642 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-02 15:13:57,784 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('xpath', "//input[@id='email_create']")
+2022-10-02 15:13:57,863 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id='SubmitCreate']")
+2022-10-02 15:13:59,528 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'id_gender1']")
+2022-10-02 15:13:59,627 - INFO - base_page.click - Clicked on element ('xpath', "//input[@id = 'id_gender1']")
+2022-10-02 15:13:59,689 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'customer_firstname']")
+2022-10-02 15:13:59,867 - INFO - base_page.enter_text - Typed Test First in element ('xpath', "//input[@id = 'customer_firstname']")
+2022-10-02 15:13:59,932 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'customer_lastname']")
+2022-10-02 15:14:00,101 - INFO - base_page.enter_text - Typed Test Second in element ('xpath', "//input[@id = 'customer_lastname']")
+2022-10-02 15:14:00,157 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'email']")
+2022-10-02 15:14:00,230 - INFO - base_page.clear_text - Cleared in element ('xpath', "//input[@id = 'email']")
+2022-10-02 15:14:00,371 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('xpath', "//input[@id = 'email']")
+2022-10-02 15:14:00,420 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'passwd']")
+2022-10-02 15:14:00,512 - INFO - base_page.enter_text - Typed Test12345 in element ('xpath', "//input[@id = 'passwd']")
+2022-10-02 15:14:00,604 - INFO - base_page.select_value - Selected 20 from element ('xpath', "//select[@id = 'days']")
+2022-10-02 15:14:00,703 - INFO - base_page.select_value - Selected 4 from element ('xpath', "//select[@id = 'months']")
+2022-10-02 15:14:00,807 - INFO - base_page.select_value - Selected 2001 from element ('xpath', "//select[@id = 'years']")
+2022-10-02 15:14:00,915 - INFO - base_page.enter_text - Typed Test First in element ('xpath', "//input[@id = 'firstname']")
+2022-10-02 15:14:01,011 - INFO - base_page.enter_text - Typed Test Second in element ('xpath', "//input[@id = 'lastname']")
+2022-10-02 15:14:01,091 - INFO - base_page.enter_text - Typed ABC in element ('xpath', "//input[@id = 'company']")
+2022-10-02 15:14:01,217 - INFO - base_page.enter_text - Typed Flat no 123,Test colony in element ('xpath', "//input[@id = 'address1']")
+2022-10-02 15:14:01,334 - INFO - base_page.enter_text - Typed Test Address Line 2 in element ('xpath', "//input[@id = 'address2']")
+2022-10-02 15:14:01,431 - INFO - base_page.enter_text - Typed TestCity in element ('xpath', "//input[@id = 'city']")
+2022-10-02 15:14:20,519 - ERROR - base_page.select_visible_text - california is not present in element ('xpath', "//select[@id='id_state']") failed or not selected
+Traceback (most recent call last):
+  File "C:\Users\ravic\PycharmProjects\automationProject\Pages\base_page.py", line 66, in select_visible_text
+    select.select_by_visible_text(text)
+  File "C:\Users\ravic\PycharmProjects\automationProject\venv\lib\site-packages\selenium\webdriver\support\select.py", line 138, in select_by_visible_text
+    raise NoSuchElementException("Could not locate element with visible text: %s" % text)
+selenium.common.exceptions.NoSuchElementException: Message: Could not locate element with visible text: california
+
+2022-10-02 15:15:08,512 - INFO - conftest.read_config_file - Read configuration file
+2022-10-02 15:15:08,512 - INFO - conftest.config_browser - chrome browser configured
+2022-10-02 15:15:10,800 - INFO - conftest.init_driver - Driver was initialized
+2022-10-02 15:15:10,981 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-02 15:15:16,350 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-02 15:15:18,902 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-02 15:15:19,054 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('xpath', "//input[@id='email_create']")
+2022-10-02 15:15:19,133 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id='SubmitCreate']")
+2022-10-02 15:15:21,127 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'id_gender1']")
+2022-10-02 15:15:21,209 - INFO - base_page.click - Clicked on element ('xpath', "//input[@id = 'id_gender1']")
+2022-10-02 15:15:21,262 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'customer_firstname']")
+2022-10-02 15:15:21,372 - INFO - base_page.enter_text - Typed Test First in element ('xpath', "//input[@id = 'customer_firstname']")
+2022-10-02 15:15:21,440 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'customer_lastname']")
+2022-10-02 15:15:21,573 - INFO - base_page.enter_text - Typed Test Second in element ('xpath', "//input[@id = 'customer_lastname']")
+2022-10-02 15:15:21,639 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'email']")
+2022-10-02 15:15:21,753 - INFO - base_page.clear_text - Cleared in element ('xpath', "//input[@id = 'email']")
+2022-10-02 15:15:21,886 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('xpath', "//input[@id = 'email']")
+2022-10-02 15:15:21,929 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'passwd']")
+2022-10-02 15:15:22,015 - INFO - base_page.enter_text - Typed Test12345 in element ('xpath', "//input[@id = 'passwd']")
+2022-10-02 15:15:22,108 - INFO - base_page.select_value - Selected 20 from element ('xpath', "//select[@id = 'days']")
+2022-10-02 15:15:22,200 - INFO - base_page.select_value - Selected 4 from element ('xpath', "//select[@id = 'months']")
+2022-10-02 15:15:22,285 - INFO - base_page.select_value - Selected 2001 from element ('xpath', "//select[@id = 'years']")
+2022-10-02 15:15:22,388 - INFO - base_page.enter_text - Typed Test First in element ('xpath', "//input[@id = 'firstname']")
+2022-10-02 15:15:22,503 - INFO - base_page.enter_text - Typed Test Second in element ('xpath', "//input[@id = 'lastname']")
+2022-10-02 15:15:22,597 - INFO - base_page.enter_text - Typed ABC in element ('xpath', "//input[@id = 'company']")
+2022-10-02 15:15:22,714 - INFO - base_page.enter_text - Typed Flat no 123,Test colony in element ('xpath', "//input[@id = 'address1']")
+2022-10-02 15:15:22,825 - INFO - base_page.enter_text - Typed Test Address Line 2 in element ('xpath', "//input[@id = 'address2']")
+2022-10-02 15:15:22,917 - INFO - base_page.enter_text - Typed TestCity in element ('xpath', "//input[@id = 'city']")
+2022-10-02 15:20:46,843 - INFO - conftest.read_config_file - Read configuration file
+2022-10-02 15:20:46,843 - INFO - conftest.config_browser - chrome browser configured
+2022-10-02 15:20:49,338 - INFO - conftest.init_driver - Driver was initialized
+2022-10-02 15:20:49,515 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-02 15:20:54,679 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-02 15:20:57,259 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-02 15:20:57,408 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('xpath', "//input[@id='email_create']")
+2022-10-02 15:20:57,482 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id='SubmitCreate']")
+2022-10-02 15:20:59,424 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'id_gender1']")
+2022-10-02 15:20:59,512 - INFO - base_page.click - Clicked on element ('xpath', "//input[@id = 'id_gender1']")
+2022-10-02 15:20:59,563 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'customer_firstname']")
+2022-10-02 15:20:59,682 - INFO - base_page.enter_text - Typed Test First in element ('xpath', "//input[@id = 'customer_firstname']")
+2022-10-02 15:20:59,742 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'customer_lastname']")
+2022-10-02 15:20:59,865 - INFO - base_page.enter_text - Typed Test Second in element ('xpath', "//input[@id = 'customer_lastname']")
+2022-10-02 15:20:59,924 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'email']")
+2022-10-02 15:21:00,048 - INFO - base_page.clear_text - Cleared in element ('xpath', "//input[@id = 'email']")
+2022-10-02 15:21:00,189 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('xpath', "//input[@id = 'email']")
+2022-10-02 15:21:00,234 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'passwd']")
+2022-10-02 15:21:00,326 - INFO - base_page.enter_text - Typed Test12345 in element ('xpath', "//input[@id = 'passwd']")
+2022-10-02 15:21:00,427 - INFO - base_page.select_value - Selected 20 from element ('xpath', "//select[@id = 'days']")
+2022-10-02 15:21:00,504 - INFO - base_page.select_value - Selected 4 from element ('xpath', "//select[@id = 'months']")
+2022-10-02 15:21:00,600 - INFO - base_page.select_value - Selected 2001 from element ('xpath', "//select[@id = 'years']")
+2022-10-02 15:21:00,701 - INFO - base_page.enter_text - Typed Test First in element ('xpath', "//input[@id = 'firstname']")
+2022-10-02 15:21:00,798 - INFO - base_page.enter_text - Typed Test Second in element ('xpath', "//input[@id = 'lastname']")
+2022-10-02 15:21:00,886 - INFO - base_page.enter_text - Typed ABC in element ('xpath', "//input[@id = 'company']")
+2022-10-02 15:21:01,003 - INFO - base_page.enter_text - Typed Flat no 123,Test colony in element ('xpath', "//input[@id = 'address1']")
+2022-10-02 15:21:01,113 - INFO - base_page.enter_text - Typed Test Address Line 2 in element ('xpath', "//input[@id = 'address2']")
+2022-10-02 15:21:01,202 - INFO - base_page.enter_text - Typed TestCity in element ('xpath', "//input[@id = 'city']")
+2022-10-02 15:21:11,760 - INFO - base_page.select_visible_text - Selected California from element ('xpath', "//select[@id='id_state']")
+2022-10-02 15:21:11,837 - INFO - base_page.enter_text - Typed 500005 in element ('xpath', "//input[@id = 'postcode']")
+2022-10-02 15:21:21,927 - ERROR - base_page.select_value - United States is not present in element ('xpath', "//select[@id = 'id_country']") failed or not selected
+Traceback (most recent call last):
+  File "C:\Users\ravic\PycharmProjects\automationProject\Pages\base_page.py", line 54, in select_value
+    select.select_by_value(str(text))
+  File "C:\Users\ravic\PycharmProjects\automationProject\venv\lib\site-packages\selenium\webdriver\support\select.py", line 85, in select_by_value
+    raise NoSuchElementException("Cannot locate option with value: %s" % value)
+selenium.common.exceptions.NoSuchElementException: Message: Cannot locate option with value: United States
+
+2022-10-02 15:25:27,402 - INFO - conftest.read_config_file - Read configuration file
+2022-10-02 15:25:27,403 - INFO - conftest.config_browser - chrome browser configured
+2022-10-02 15:25:29,756 - INFO - conftest.init_driver - Driver was initialized
+2022-10-02 15:25:29,916 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-02 15:25:34,727 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-02 15:25:38,448 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-02 15:25:38,595 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('xpath', "//input[@id='email_create']")
+2022-10-02 15:25:38,671 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id='SubmitCreate']")
+2022-10-02 15:25:40,530 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'id_gender1']")
+2022-10-02 15:25:40,617 - INFO - base_page.click - Clicked on element ('xpath', "//input[@id = 'id_gender1']")
+2022-10-02 15:25:40,665 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'customer_firstname']")
+2022-10-02 15:25:40,802 - INFO - base_page.enter_text - Typed Test First in element ('xpath', "//input[@id = 'customer_firstname']")
+2022-10-02 15:25:40,850 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'customer_lastname']")
+2022-10-02 15:25:40,994 - INFO - base_page.enter_text - Typed Test Second in element ('xpath', "//input[@id = 'customer_lastname']")
+2022-10-02 15:25:41,049 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'email']")
+2022-10-02 15:25:41,159 - INFO - base_page.clear_text - Cleared in element ('xpath', "//input[@id = 'email']")
+2022-10-02 15:25:41,284 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('xpath', "//input[@id = 'email']")
+2022-10-02 15:25:41,331 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'passwd']")
+2022-10-02 15:25:41,419 - INFO - base_page.enter_text - Typed Test12345 in element ('xpath', "//input[@id = 'passwd']")
+2022-10-02 15:25:41,518 - INFO - base_page.select_value - Selected 20 from element ('xpath', "//select[@id = 'days']")
+2022-10-02 15:25:41,596 - INFO - base_page.select_value - Selected 4 from element ('xpath', "//select[@id = 'months']")
+2022-10-02 15:25:41,685 - INFO - base_page.select_value - Selected 2001 from element ('xpath', "//select[@id = 'years']")
+2022-10-02 15:25:41,786 - INFO - base_page.enter_text - Typed Test First in element ('xpath', "//input[@id = 'firstname']")
+2022-10-02 15:25:41,880 - INFO - base_page.enter_text - Typed Test Second in element ('xpath', "//input[@id = 'lastname']")
+2022-10-02 15:25:41,961 - INFO - base_page.enter_text - Typed ABC in element ('xpath', "//input[@id = 'company']")
+2022-10-02 15:25:42,085 - INFO - base_page.enter_text - Typed Flat no 123,Test colony in element ('xpath', "//input[@id = 'address1']")
+2022-10-02 15:25:42,191 - INFO - base_page.enter_text - Typed Test Address Line 2 in element ('xpath', "//input[@id = 'address2']")
+2022-10-02 15:25:42,284 - INFO - base_page.enter_text - Typed TestCity in element ('xpath', "//input[@id = 'city']")
+2022-10-02 15:25:42,371 - INFO - base_page.select_visible_text - Selected California from element ('xpath', "//select[@id='id_state']")
+2022-10-02 15:25:42,460 - INFO - base_page.enter_text - Typed 500005 in element ('xpath', "//input[@id = 'postcode']")
+2022-10-02 15:25:42,515 - INFO - base_page.select_visible_text - Selected United States from element ('xpath', "//select[@id = 'id_country']")
+2022-10-02 15:25:42,619 - INFO - base_page.enter_text - Typed Test Additional Info in element ('xpath', "//textarea[@id='other']")
+2022-10-02 15:25:42,653 - ERROR - base_page.enter_text - Typing in element ('xpath', "//input[@id='phone']") failed
+Traceback (most recent call last):
+  File "C:\Users\ravic\PycharmProjects\automationProject\Pages\base_page.py", line 34, in enter_text
+    self.wait_for_element(element).send_keys(text)
+  File "C:\Users\ravic\PycharmProjects\automationProject\venv\lib\site-packages\selenium\webdriver\remote\webelement.py", line 224, in send_keys
+    {'text': "".join(keys_to_typing(value)),
+  File "C:\Users\ravic\PycharmProjects\automationProject\venv\lib\site-packages\selenium\webdriver\common\utils.py", line 146, in keys_to_typing
+    for i in range(len(val)):
+TypeError: object of type 'NoneType' has no len()
+2022-10-02 15:30:42,404 - INFO - conftest.read_config_file - Read configuration file
+2022-10-02 15:30:42,404 - INFO - conftest.config_browser - chrome browser configured
+2022-10-02 15:30:46,951 - INFO - conftest.init_driver - Driver was initialized
+2022-10-02 15:30:47,116 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-02 15:30:51,994 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-02 15:30:53,833 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-02 15:30:54,018 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('xpath', "//input[@id='email_create']")
+2022-10-02 15:30:54,105 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id='SubmitCreate']")
+2022-10-02 15:30:55,923 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'id_gender1']")
+2022-10-02 15:30:56,032 - INFO - base_page.click - Clicked on element ('xpath', "//input[@id = 'id_gender1']")
+2022-10-02 15:30:56,093 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'customer_firstname']")
+2022-10-02 15:30:56,245 - INFO - base_page.enter_text - Typed Test First in element ('xpath', "//input[@id = 'customer_firstname']")
+2022-10-02 15:30:56,308 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'customer_lastname']")
+2022-10-02 15:30:56,495 - INFO - base_page.enter_text - Typed Test Second in element ('xpath', "//input[@id = 'customer_lastname']")
+2022-10-02 15:30:56,546 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'email']")
+2022-10-02 15:30:56,625 - INFO - base_page.clear_text - Cleared in element ('xpath', "//input[@id = 'email']")
+2022-10-02 15:30:56,775 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('xpath', "//input[@id = 'email']")
+2022-10-02 15:30:56,829 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'passwd']")
+2022-10-02 15:30:56,940 - INFO - base_page.enter_text - Typed Test12345 in element ('xpath', "//input[@id = 'passwd']")
+2022-10-02 15:30:57,046 - INFO - base_page.select_value - Selected 20 from element ('xpath', "//select[@id = 'days']")
+2022-10-02 15:30:57,140 - INFO - base_page.select_value - Selected 4 from element ('xpath', "//select[@id = 'months']")
+2022-10-02 15:30:57,233 - INFO - base_page.select_value - Selected 2001 from element ('xpath', "//select[@id = 'years']")
+2022-10-02 15:30:57,338 - INFO - base_page.enter_text - Typed Test First in element ('xpath', "//input[@id = 'firstname']")
+2022-10-02 15:30:57,456 - INFO - base_page.enter_text - Typed Test Second in element ('xpath', "//input[@id = 'lastname']")
+2022-10-02 15:30:57,558 - INFO - base_page.enter_text - Typed ABC in element ('xpath', "//input[@id = 'company']")
+2022-10-02 15:30:57,728 - INFO - base_page.enter_text - Typed Flat no 123,Test colony in element ('xpath', "//input[@id = 'address1']")
+2022-10-02 15:30:57,875 - INFO - base_page.enter_text - Typed Test Address Line 2 in element ('xpath', "//input[@id = 'address2']")
+2022-10-02 15:30:57,984 - INFO - base_page.enter_text - Typed TestCity in element ('xpath', "//input[@id = 'city']")
+2022-10-02 15:30:58,087 - INFO - base_page.select_visible_text - Selected California from element ('xpath', "//select[@id='id_state']")
+2022-10-02 15:30:58,210 - INFO - base_page.enter_text - Typed 500005 in element ('xpath', "//input[@id = 'postcode']")
+2022-10-02 15:30:58,272 - INFO - base_page.select_visible_text - Selected United States from element ('xpath', "//select[@id = 'id_country']")
+2022-10-02 15:30:58,405 - INFO - base_page.enter_text - Typed Test Additional Info in element ('xpath', "//textarea[@id='other']")
+2022-10-02 15:30:58,530 - INFO - base_page.enter_text - Typed 1234567890 in element ('xpath', "//input[@id='phone_mobile']")
+2022-10-02 15:30:58,687 - INFO - base_page.enter_text - Typed For future reference in element ('xpath', "//input[@id='alias']")
+2022-10-02 15:46:52,851 - INFO - conftest.read_config_file - Read configuration file
+2022-10-02 15:46:52,851 - INFO - conftest.config_browser - chrome browser configured
+2022-10-02 15:46:55,575 - INFO - conftest.init_driver - Driver was initialized
+2022-10-02 15:46:55,895 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-02 15:47:01,473 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-02 15:47:01,474 - ERROR - base_page.wait_for_element - Element ('xpath', "//a[contains(text(),'Sign in')]") was not found
+Traceback (most recent call last):
+  File "C:\Users\ravic\PycharmProjects\automationProject\Pages\base_page.py", line 83, in wait_for_element
+    return WebDriverWait(self.driver, 10).until(expected_conditions.element_to_be_clickable(element))
+  File "C:\Users\ravic\PycharmProjects\automationProject\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 81, in until
+    value = method(self._driver)
+  File "C:\Users\ravic\PycharmProjects\automationProject\venv\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 312, in _predicate
+    target = driver.find_element(*target)  # grab element at locator
+AttributeError: 'NoneType' object has no attribute 'find_element'
+2022-10-02 15:47:01,492 - ERROR - base_page.click - Clicking on element ('xpath', "//a[contains(text(),'Sign in')]") failed
+Traceback (most recent call last):
+  File "C:\Users\ravic\PycharmProjects\automationProject\Pages\base_page.py", line 83, in wait_for_element
+    return WebDriverWait(self.driver, 10).until(expected_conditions.element_to_be_clickable(element))
+  File "C:\Users\ravic\PycharmProjects\automationProject\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 81, in until
+    value = method(self._driver)
+  File "C:\Users\ravic\PycharmProjects\automationProject\venv\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 312, in _predicate
+    target = driver.find_element(*target)  # grab element at locator
+AttributeError: 'NoneType' object has no attribute 'find_element'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ravic\PycharmProjects\automationProject\Pages\base_page.py", line 15, in click
+    self.wait_for_element(element).click()
+  File "C:\Users\ravic\PycharmProjects\automationProject\Pages\base_page.py", line 87, in wait_for_element
+    raise Exception(message)
+Exception: Element ('xpath', "//a[contains(text(),'Sign in')]") was not found
+2022-10-02 15:47:04,216 - INFO - conftest.init_driver - Driver was closed
+2022-10-02 15:48:17,541 - INFO - conftest.read_config_file - Read configuration file
+2022-10-02 15:48:17,541 - INFO - conftest.config_browser - chrome browser configured
+2022-10-02 15:48:20,746 - INFO - conftest.init_driver - Driver was initialized
+2022-10-02 15:48:20,983 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-02 15:48:28,349 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-02 15:48:28,350 - ERROR - base_page.wait_for_element - Element ('xpath', "//a[contains(text(),'Sign in')]") was not found
+Traceback (most recent call last):
+  File "C:\Users\ravic\PycharmProjects\automationProject\Pages\base_page.py", line 83, in wait_for_element
+    return WebDriverWait(self.driver, 10).until(expected_conditions.element_to_be_clickable(element))
+  File "C:\Users\ravic\PycharmProjects\automationProject\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 81, in until
+    value = method(self._driver)
+  File "C:\Users\ravic\PycharmProjects\automationProject\venv\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 312, in _predicate
+    target = driver.find_element(*target)  # grab element at locator
+AttributeError: 'NoneType' object has no attribute 'find_element'
+2022-10-02 15:48:28,364 - ERROR - base_page.click - Clicking on element ('xpath', "//a[contains(text(),'Sign in')]") failed
+Traceback (most recent call last):
+  File "C:\Users\ravic\PycharmProjects\automationProject\Pages\base_page.py", line 83, in wait_for_element
+    return WebDriverWait(self.driver, 10).until(expected_conditions.element_to_be_clickable(element))
+  File "C:\Users\ravic\PycharmProjects\automationProject\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 81, in until
+    value = method(self._driver)
+  File "C:\Users\ravic\PycharmProjects\automationProject\venv\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 312, in _predicate
+    target = driver.find_element(*target)  # grab element at locator
+AttributeError: 'NoneType' object has no attribute 'find_element'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ravic\PycharmProjects\automationProject\Pages\base_page.py", line 15, in click
+    self.wait_for_element(element).click()
+  File "C:\Users\ravic\PycharmProjects\automationProject\Pages\base_page.py", line 87, in wait_for_element
+    raise Exception(message)
+Exception: Element ('xpath', "//a[contains(text(),'Sign in')]") was not found
+2022-10-02 15:48:30,904 - INFO - conftest.init_driver - Driver was closed
+2022-10-02 15:50:39,778 - INFO - conftest.read_config_file - Read configuration file
+2022-10-02 15:50:39,779 - INFO - conftest.config_browser - chrome browser configured
+2022-10-02 15:50:42,422 - INFO - conftest.init_driver - Driver was initialized
+2022-10-02 15:50:42,572 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-02 15:50:47,002 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-02 15:50:49,140 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-02 15:50:49,277 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('xpath', "//input[@id='email_create']")
+2022-10-02 15:50:49,345 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id='SubmitCreate']")
+2022-10-02 15:50:50,914 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'id_gender1']")
+2022-10-02 15:50:51,012 - INFO - base_page.click - Clicked on element ('xpath', "//input[@id = 'id_gender1']")
+2022-10-02 15:50:51,055 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'customer_firstname']")
+2022-10-02 15:50:51,199 - INFO - base_page.enter_text - Typed Test First in element ('xpath', "//input[@id = 'customer_firstname']")
+2022-10-02 15:50:51,247 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'customer_lastname']")
+2022-10-02 15:50:51,365 - INFO - base_page.enter_text - Typed Test Second in element ('xpath', "//input[@id = 'customer_lastname']")
+2022-10-02 15:50:51,422 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'email']")
+2022-10-02 15:50:51,550 - INFO - base_page.clear_text - Cleared in element ('xpath', "//input[@id = 'email']")
+2022-10-02 15:50:51,693 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('xpath', "//input[@id = 'email']")
+2022-10-02 15:50:51,731 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'passwd']")
+2022-10-02 15:50:51,812 - INFO - base_page.enter_text - Typed Test12345 in element ('xpath', "//input[@id = 'passwd']")
+2022-10-02 15:50:51,901 - INFO - base_page.select_value - Selected 20 from element ('xpath', "//select[@id = 'days']")
+2022-10-02 15:50:51,985 - INFO - base_page.select_value - Selected 4 from element ('xpath', "//select[@id = 'months']")
+2022-10-02 15:50:52,055 - INFO - base_page.select_value - Selected 2001 from element ('xpath', "//select[@id = 'years']")
+2022-10-02 15:50:52,162 - INFO - base_page.enter_text - Typed Test First in element ('xpath', "//input[@id = 'firstname']")
+2022-10-02 15:50:52,249 - INFO - base_page.enter_text - Typed Test Second in element ('xpath', "//input[@id = 'lastname']")
+2022-10-02 15:50:52,333 - INFO - base_page.enter_text - Typed ABC in element ('xpath', "//input[@id = 'company']")
+2022-10-02 15:50:52,454 - INFO - base_page.enter_text - Typed Flat no 123,Test colony in element ('xpath', "//input[@id = 'address1']")
+2022-10-02 15:50:52,562 - INFO - base_page.enter_text - Typed Test Address Line 2 in element ('xpath', "//input[@id = 'address2']")
+2022-10-02 15:50:52,655 - INFO - base_page.enter_text - Typed TestCity in element ('xpath', "//input[@id = 'city']")
+2022-10-02 15:50:52,735 - INFO - base_page.select_visible_text - Selected California from element ('xpath', "//select[@id='id_state']")
+2022-10-02 15:50:52,816 - INFO - base_page.enter_text - Typed 500005 in element ('xpath', "//input[@id = 'postcode']")
+2022-10-02 15:50:52,865 - INFO - base_page.select_visible_text - Selected United States from element ('xpath', "//select[@id = 'id_country']")
+2022-10-02 15:50:52,973 - INFO - base_page.enter_text - Typed Test Additional Info in element ('xpath', "//textarea[@id='other']")
+2022-10-02 15:50:53,062 - INFO - base_page.enter_text - Typed 1234567890 in element ('xpath', "//input[@id='phone_mobile']")
+2022-10-02 15:50:53,197 - INFO - base_page.enter_text - Typed For future reference in element ('xpath', "//input[@id='alias']")
+2022-10-02 15:53:21,782 - INFO - conftest.read_config_file - Read configuration file
+2022-10-02 15:53:21,782 - INFO - conftest.config_browser - chrome browser configured
+2022-10-02 15:53:24,268 - INFO - conftest.init_driver - Driver was initialized
+2022-10-02 15:53:24,441 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-02 15:53:30,039 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-02 15:53:31,865 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-02 15:53:32,001 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('xpath', "//input[@id='email_create']")
+2022-10-02 15:53:32,076 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id='SubmitCreate']")
+2022-10-02 15:53:33,443 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'id_gender1']")
+2022-10-02 15:53:33,519 - INFO - base_page.click - Clicked on element ('xpath', "//input[@id = 'id_gender1']")
+2022-10-02 15:53:33,569 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'customer_firstname']")
+2022-10-02 15:53:33,703 - INFO - base_page.enter_text - Typed Test First in element ('xpath', "//input[@id = 'customer_firstname']")
+2022-10-02 15:53:33,768 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'customer_lastname']")
+2022-10-02 15:53:33,899 - INFO - base_page.enter_text - Typed Test Second in element ('xpath', "//input[@id = 'customer_lastname']")
+2022-10-02 15:53:33,961 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'email']")
+2022-10-02 15:53:34,072 - INFO - base_page.clear_text - Cleared in element ('xpath', "//input[@id = 'email']")
+2022-10-02 15:53:34,186 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('xpath', "//input[@id = 'email']")
+2022-10-02 15:53:34,227 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'passwd']")
+2022-10-02 15:53:34,309 - INFO - base_page.enter_text - Typed Test12345 in element ('xpath', "//input[@id = 'passwd']")
+2022-10-02 15:53:34,379 - INFO - base_page.select_value - Selected 20 from element ('xpath', "//select[@id = 'days']")
+2022-10-02 15:53:34,450 - INFO - base_page.select_value - Selected 4 from element ('xpath', "//select[@id = 'months']")
+2022-10-02 15:53:34,517 - INFO - base_page.select_value - Selected 2001 from element ('xpath', "//select[@id = 'years']")
+2022-10-02 15:53:34,599 - INFO - base_page.enter_text - Typed Test First in element ('xpath', "//input[@id = 'firstname']")
+2022-10-02 15:53:34,696 - INFO - base_page.enter_text - Typed Test Second in element ('xpath', "//input[@id = 'lastname']")
+2022-10-02 15:53:34,769 - INFO - base_page.enter_text - Typed ABC in element ('xpath', "//input[@id = 'company']")
+2022-10-02 15:53:34,897 - INFO - base_page.enter_text - Typed Flat no 123,Test colony in element ('xpath', "//input[@id = 'address1']")
+2022-10-02 15:53:34,994 - INFO - base_page.enter_text - Typed Test Address Line 2 in element ('xpath', "//input[@id = 'address2']")
+2022-10-02 15:53:35,075 - INFO - base_page.enter_text - Typed TestCity in element ('xpath', "//input[@id = 'city']")
+2022-10-02 15:53:35,169 - INFO - base_page.select_visible_text - Selected California from element ('xpath', "//select[@id='id_state']")
+2022-10-02 15:53:35,255 - INFO - base_page.enter_text - Typed 500005 in element ('xpath', "//input[@id = 'postcode']")
+2022-10-02 15:53:35,318 - INFO - base_page.select_visible_text - Selected United States from element ('xpath', "//select[@id = 'id_country']")
+2022-10-02 15:53:35,419 - INFO - base_page.enter_text - Typed Test Additional Info in element ('xpath', "//textarea[@id='other']")
+2022-10-02 15:53:35,511 - INFO - base_page.enter_text - Typed 1234567890 in element ('xpath', "//input[@id='phone_mobile']")
+2022-10-02 15:53:35,625 - INFO - base_page.enter_text - Typed For future reference in element ('xpath', "//input[@id='alias']")
+2022-10-02 15:54:35,683 - INFO - conftest.read_config_file - Read configuration file
+2022-10-02 15:54:35,683 - INFO - conftest.config_browser - chrome browser configured
+2022-10-02 15:54:38,130 - INFO - conftest.init_driver - Driver was initialized
+2022-10-02 15:54:38,280 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-02 15:54:43,466 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-02 15:54:45,464 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-02 15:54:45,622 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('xpath', "//input[@id='email_create']")
+2022-10-02 15:54:45,699 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id='SubmitCreate']")
+2022-10-02 15:54:47,662 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'id_gender1']")
+2022-10-02 15:54:47,734 - INFO - base_page.click - Clicked on element ('xpath', "//input[@id = 'id_gender1']")
+2022-10-02 15:54:47,785 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'customer_firstname']")
+2022-10-02 15:54:47,913 - INFO - base_page.enter_text - Typed Test First in element ('xpath', "//input[@id = 'customer_firstname']")
+2022-10-02 15:54:47,960 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'customer_lastname']")
+2022-10-02 15:54:48,082 - INFO - base_page.enter_text - Typed Test Second in element ('xpath', "//input[@id = 'customer_lastname']")
+2022-10-02 15:54:48,146 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'email']")
+2022-10-02 15:54:48,267 - INFO - base_page.clear_text - Cleared in element ('xpath', "//input[@id = 'email']")
+2022-10-02 15:54:48,391 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('xpath', "//input[@id = 'email']")
+2022-10-02 15:54:48,430 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'passwd']")
+2022-10-02 15:54:48,520 - INFO - base_page.enter_text - Typed Test12345 in element ('xpath', "//input[@id = 'passwd']")
+2022-10-02 15:54:48,597 - INFO - base_page.select_value - Selected 20 from element ('xpath', "//select[@id = 'days']")
+2022-10-02 15:54:48,673 - INFO - base_page.select_value - Selected 4 from element ('xpath', "//select[@id = 'months']")
+2022-10-02 15:54:48,741 - INFO - base_page.select_value - Selected 2001 from element ('xpath', "//select[@id = 'years']")
+2022-10-02 15:54:48,841 - INFO - base_page.enter_text - Typed Test First in element ('xpath', "//input[@id = 'firstname']")
+2022-10-02 15:54:48,934 - INFO - base_page.enter_text - Typed Test Second in element ('xpath', "//input[@id = 'lastname']")
+2022-10-02 15:54:49,009 - INFO - base_page.enter_text - Typed ABC in element ('xpath', "//input[@id = 'company']")
+2022-10-02 15:54:49,125 - INFO - base_page.enter_text - Typed Flat no 123,Test colony in element ('xpath', "//input[@id = 'address1']")
+2022-10-02 15:54:49,234 - INFO - base_page.enter_text - Typed Test Address Line 2 in element ('xpath', "//input[@id = 'address2']")
+2022-10-02 15:54:49,317 - INFO - base_page.enter_text - Typed TestCity in element ('xpath', "//input[@id = 'city']")
+2022-10-02 15:54:49,398 - INFO - base_page.select_visible_text - Selected California from element ('xpath', "//select[@id='id_state']")
+2022-10-02 15:54:49,492 - INFO - base_page.enter_text - Typed 500005 in element ('xpath', "//input[@id = 'postcode']")
+2022-10-02 15:54:49,546 - INFO - base_page.select_visible_text - Selected United States from element ('xpath', "//select[@id = 'id_country']")
+2022-10-02 15:54:49,640 - INFO - base_page.enter_text - Typed Test Additional Info in element ('xpath', "//textarea[@id='other']")
+2022-10-02 15:54:49,731 - INFO - base_page.enter_text - Typed 1234567890 in element ('xpath', "//input[@id='phone_mobile']")
+2022-10-02 15:54:49,842 - INFO - base_page.enter_text - Typed For future reference in element ('xpath', "//input[@id='alias']")
+2022-10-02 15:58:39,723 - INFO - conftest.read_config_file - Read configuration file
+2022-10-02 15:58:39,723 - INFO - conftest.config_browser - chrome browser configured
+2022-10-02 15:58:42,504 - INFO - conftest.init_driver - Driver was initialized
+2022-10-02 15:58:42,687 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-02 15:58:57,577 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-02 15:58:59,545 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-02 15:58:59,686 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('xpath', "//input[@id='email_create']")
+2022-10-02 15:58:59,752 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id='SubmitCreate']")
+2022-10-02 15:59:04,339 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'id_gender1']")
+2022-10-02 15:59:04,423 - INFO - base_page.click - Clicked on element ('xpath', "//input[@id = 'id_gender1']")
+2022-10-02 15:59:04,475 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'customer_firstname']")
+2022-10-02 15:59:04,608 - INFO - base_page.enter_text - Typed Test First in element ('xpath', "//input[@id = 'customer_firstname']")
+2022-10-02 15:59:04,657 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'customer_lastname']")
+2022-10-02 15:59:04,779 - INFO - base_page.enter_text - Typed Test Second in element ('xpath', "//input[@id = 'customer_lastname']")
+2022-10-02 15:59:04,841 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'email']")
+2022-10-02 15:59:04,948 - INFO - base_page.clear_text - Cleared in element ('xpath', "//input[@id = 'email']")
+2022-10-02 15:59:05,062 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('xpath', "//input[@id = 'email']")
+2022-10-02 15:59:05,098 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'passwd']")
+2022-10-02 15:59:05,192 - INFO - base_page.enter_text - Typed Test12345 in element ('xpath', "//input[@id = 'passwd']")
+2022-10-02 15:59:05,279 - INFO - base_page.select_value - Selected 20 from element ('xpath', "//select[@id = 'days']")
+2022-10-02 15:59:05,354 - INFO - base_page.select_value - Selected 4 from element ('xpath', "//select[@id = 'months']")
+2022-10-02 15:59:05,435 - INFO - base_page.select_value - Selected 2001 from element ('xpath', "//select[@id = 'years']")
+2022-10-02 15:59:05,520 - INFO - base_page.enter_text - Typed Test First in element ('xpath', "//input[@id = 'firstname']")
+2022-10-02 15:59:05,613 - INFO - base_page.enter_text - Typed Test Second in element ('xpath', "//input[@id = 'lastname']")
+2022-10-02 15:59:05,697 - INFO - base_page.enter_text - Typed ABC in element ('xpath', "//input[@id = 'company']")
+2022-10-02 15:59:05,825 - INFO - base_page.enter_text - Typed Flat no 123,Test colony in element ('xpath', "//input[@id = 'address1']")
+2022-10-02 15:59:05,932 - INFO - base_page.enter_text - Typed Test Address Line 2 in element ('xpath', "//input[@id = 'address2']")
+2022-10-02 15:59:06,033 - INFO - base_page.enter_text - Typed TestCity in element ('xpath', "//input[@id = 'city']")
+2022-10-02 15:59:06,111 - INFO - base_page.select_visible_text - Selected California from element ('xpath', "//select[@id='id_state']")
+2022-10-02 15:59:06,182 - INFO - base_page.enter_text - Typed 500005 in element ('xpath', "//input[@id = 'postcode']")
+2022-10-02 15:59:06,233 - INFO - base_page.select_visible_text - Selected United States from element ('xpath', "//select[@id = 'id_country']")
+2022-10-02 15:59:06,329 - INFO - base_page.enter_text - Typed Test Additional Info in element ('xpath', "//textarea[@id='other']")
+2022-10-02 15:59:06,416 - INFO - base_page.enter_text - Typed 1234567890 in element ('xpath', "//input[@id='phone_mobile']")
+2022-10-02 15:59:06,527 - INFO - base_page.enter_text - Typed For future reference in element ('xpath', "//input[@id='alias']")
+2022-10-02 16:04:32,517 - INFO - conftest.read_config_file - Read configuration file
+2022-10-02 16:04:32,517 - INFO - conftest.config_browser - chrome browser configured
+2022-10-02 16:04:35,171 - INFO - conftest.init_driver - Driver was initialized
+2022-10-02 16:04:35,336 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-02 16:04:36,149 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-02 16:04:42,710 - ERROR - base_page.wait_for_element - Element ('xpath', "//a[contains(text(),'Sign in')]") was not found
+Traceback (most recent call last):
+  File "C:\Users\ravic\PycharmProjects\automationProject\Pages\base_page.py", line 83, in wait_for_element
+    return WebDriverWait(self.driver, 10).until(expected_conditions.element_to_be_clickable(element))
+  File "C:\Users\ravic\PycharmProjects\automationProject\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 81, in until
+    value = method(self._driver)
+  File "C:\Users\ravic\PycharmProjects\automationProject\venv\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 313, in _predicate
+    target = visibility_of(target)(driver)
+  File "C:\Users\ravic\PycharmProjects\automationProject\venv\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 141, in _predicate
+    return _element_if_visible(element)
+  File "C:\Users\ravic\PycharmProjects\automationProject\venv\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 147, in _element_if_visible
+    return element if element.is_displayed() == visibility else False
+AttributeError: 'NoneType' object has no attribute 'is_displayed'
+2022-10-02 16:04:42,756 - ERROR - base_page.click - Clicking on element ('xpath', "//a[contains(text(),'Sign in')]") failed
+Traceback (most recent call last):
+  File "C:\Users\ravic\PycharmProjects\automationProject\Pages\base_page.py", line 83, in wait_for_element
+    return WebDriverWait(self.driver, 10).until(expected_conditions.element_to_be_clickable(element))
+  File "C:\Users\ravic\PycharmProjects\automationProject\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 81, in until
+    value = method(self._driver)
+  File "C:\Users\ravic\PycharmProjects\automationProject\venv\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 313, in _predicate
+    target = visibility_of(target)(driver)
+  File "C:\Users\ravic\PycharmProjects\automationProject\venv\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 141, in _predicate
+    return _element_if_visible(element)
+  File "C:\Users\ravic\PycharmProjects\automationProject\venv\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 147, in _element_if_visible
+    return element if element.is_displayed() == visibility else False
+AttributeError: 'NoneType' object has no attribute 'is_displayed'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ravic\PycharmProjects\automationProject\Pages\base_page.py", line 15, in click
+    self.wait_for_element(element).click()
+  File "C:\Users\ravic\PycharmProjects\automationProject\Pages\base_page.py", line 87, in wait_for_element
+    raise Exception(message)
+Exception: Element ('xpath', "//a[contains(text(),'Sign in')]") was not found
+2022-10-02 16:12:44,908 - INFO - conftest.read_config_file - Read configuration file
+2022-10-02 16:12:44,908 - INFO - conftest.config_browser - chrome browser configured
+2022-10-02 16:12:47,816 - INFO - conftest.init_driver - Driver was initialized
+2022-10-02 16:12:47,981 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-02 16:12:52,572 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-02 16:12:54,421 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-02 16:12:54,625 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('xpath', "//input[@id='email_create']")
+2022-10-02 16:12:54,736 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id='SubmitCreate']")
+2022-10-02 16:12:56,351 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'id_gender1']")
+2022-10-02 16:12:56,459 - INFO - base_page.click - Clicked on element ('xpath', "//input[@id = 'id_gender1']")
+2022-10-02 16:12:56,514 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'customer_firstname']")
+2022-10-02 16:12:56,654 - INFO - base_page.enter_text - Typed Test First in element ('xpath', "//input[@id = 'customer_firstname']")
+2022-10-02 16:12:56,705 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'customer_lastname']")
+2022-10-02 16:12:56,873 - INFO - base_page.enter_text - Typed Test Second in element ('xpath', "//input[@id = 'customer_lastname']")
+2022-10-02 16:12:57,011 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'email']")
+2022-10-02 16:12:57,190 - INFO - base_page.clear_text - Cleared in element ('xpath', "//input[@id = 'email']")
+2022-10-02 16:12:57,336 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('xpath', "//input[@id = 'email']")
+2022-10-02 16:12:57,372 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'passwd']")
+2022-10-02 16:12:57,449 - INFO - base_page.enter_text - Typed Test12345 in element ('xpath', "//input[@id = 'passwd']")
+2022-10-02 16:12:57,534 - INFO - base_page.select_value - Selected 20 from element ('xpath', "//select[@id = 'days']")
+2022-10-02 16:12:57,613 - INFO - base_page.select_value - Selected 4 from element ('xpath', "//select[@id = 'months']")
+2022-10-02 16:12:57,697 - INFO - base_page.select_value - Selected 2001 from element ('xpath', "//select[@id = 'years']")
+2022-10-02 16:12:57,793 - INFO - base_page.enter_text - Typed Test First in element ('xpath', "//input[@id = 'firstname']")
+2022-10-02 16:12:57,886 - INFO - base_page.enter_text - Typed Test Second in element ('xpath', "//input[@id = 'lastname']")
+2022-10-02 16:12:57,984 - INFO - base_page.enter_text - Typed ABC in element ('xpath', "//input[@id = 'company']")
+2022-10-02 16:12:58,105 - INFO - base_page.enter_text - Typed Flat no 123,Test colony in element ('xpath', "//input[@id = 'address1']")
+2022-10-02 16:12:58,214 - INFO - base_page.enter_text - Typed Test Address Line 2 in element ('xpath', "//input[@id = 'address2']")
+2022-10-02 16:12:58,299 - INFO - base_page.enter_text - Typed TestCity in element ('xpath', "//input[@id = 'city']")
+2022-10-02 16:12:58,384 - INFO - base_page.select_visible_text - Selected California from element ('xpath', "//select[@id='id_state']")
+2022-10-02 16:12:58,471 - INFO - base_page.enter_text - Typed 500005 in element ('xpath', "//input[@id = 'postcode']")
+2022-10-02 16:12:58,530 - INFO - base_page.select_visible_text - Selected United States from element ('xpath', "//select[@id = 'id_country']")
+2022-10-02 16:12:58,643 - INFO - base_page.enter_text - Typed Test Additional Info in element ('xpath', "//textarea[@id='other']")
+2022-10-02 16:12:58,735 - INFO - base_page.enter_text - Typed 1234567890 in element ('xpath', "//input[@id='phone_mobile']")
+2022-10-02 16:12:58,853 - INFO - base_page.enter_text - Typed For future reference in element ('xpath', "//input[@id='alias']")
+2022-10-02 16:13:01,306 - INFO - conftest.init_driver - Driver was closed
+2022-10-02 16:18:32,097 - INFO - conftest.read_config_file - Read configuration file
+2022-10-02 16:18:32,097 - INFO - conftest.config_browser - chrome browser configured
+2022-10-02 16:18:34,995 - INFO - conftest.init_driver - Driver was initialized
+2022-10-02 16:18:35,165 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-02 16:18:39,683 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-02 16:18:41,896 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-02 16:18:42,060 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('xpath', "//input[@id='email_create']")
+2022-10-02 16:18:42,141 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id='SubmitCreate']")
+2022-10-02 16:18:43,697 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'id_gender1']")
+2022-10-02 16:18:43,792 - INFO - base_page.click - Clicked on element ('xpath', "//input[@id = 'id_gender1']")
+2022-10-02 16:18:43,850 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'customer_firstname']")
+2022-10-02 16:18:43,985 - INFO - base_page.enter_text - Typed Test First in element ('xpath', "//input[@id = 'customer_firstname']")
+2022-10-02 16:18:44,037 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'customer_lastname']")
+2022-10-02 16:18:44,182 - INFO - base_page.enter_text - Typed Test Second in element ('xpath', "//input[@id = 'customer_lastname']")
+2022-10-02 16:18:44,400 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'email']")
+2022-10-02 16:18:44,474 - INFO - base_page.clear_text - Cleared in element ('xpath', "//input[@id = 'email']")
+2022-10-02 16:18:44,619 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('xpath', "//input[@id = 'email']")
+2022-10-02 16:18:44,660 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'passwd']")
+2022-10-02 16:18:44,748 - INFO - base_page.enter_text - Typed Test12345 in element ('xpath', "//input[@id = 'passwd']")
+2022-10-02 16:18:44,831 - INFO - base_page.select_value - Selected 20 from element ('xpath', "//select[@id = 'days']")
+2022-10-02 16:18:44,918 - INFO - base_page.select_value - Selected 4 from element ('xpath', "//select[@id = 'months']")
+2022-10-02 16:18:44,990 - INFO - base_page.select_value - Selected 2001 from element ('xpath', "//select[@id = 'years']")
+2022-10-02 16:18:45,073 - INFO - base_page.enter_text - Typed Test First in element ('xpath', "//input[@id = 'firstname']")
+2022-10-02 16:18:45,157 - INFO - base_page.enter_text - Typed Test Second in element ('xpath', "//input[@id = 'lastname']")
+2022-10-02 16:18:45,239 - INFO - base_page.enter_text - Typed ABC in element ('xpath', "//input[@id = 'company']")
+2022-10-02 16:18:45,358 - INFO - base_page.enter_text - Typed Flat no 123,Test colony in element ('xpath', "//input[@id = 'address1']")
+2022-10-02 16:18:45,454 - INFO - base_page.enter_text - Typed Test Address Line 2 in element ('xpath', "//input[@id = 'address2']")
+2022-10-02 16:18:45,543 - INFO - base_page.enter_text - Typed TestCity in element ('xpath', "//input[@id = 'city']")
+2022-10-02 16:18:45,625 - INFO - base_page.select_visible_text - Selected California from element ('xpath', "//select[@id='id_state']")
+2022-10-02 16:18:45,737 - INFO - base_page.enter_text - Typed 500005 in element ('xpath', "//input[@id = 'postcode']")
+2022-10-02 16:18:45,800 - INFO - base_page.select_visible_text - Selected United States from element ('xpath', "//select[@id = 'id_country']")
+2022-10-02 16:18:45,916 - INFO - base_page.enter_text - Typed Test Additional Info in element ('xpath', "//textarea[@id='other']")
+2022-10-02 16:18:46,012 - INFO - base_page.enter_text - Typed 1234567890 in element ('xpath', "//input[@id='phone_mobile']")
+2022-10-02 16:18:46,135 - INFO - base_page.enter_text - Typed For future reference in element ('xpath', "//input[@id='alias']")
+2022-10-02 16:18:48,577 - INFO - conftest.init_driver - Driver was closed
+2022-10-02 16:19:42,866 - INFO - conftest.read_config_file - Read configuration file
+2022-10-02 16:19:42,866 - INFO - conftest.config_browser - chrome browser configured
+2022-10-02 16:19:45,969 - INFO - conftest.init_driver - Driver was initialized
+2022-10-02 16:19:46,138 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-02 16:19:51,717 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-02 16:19:54,003 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-02 16:19:54,165 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('xpath', "//input[@id='email_create']")
+2022-10-02 16:19:54,249 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id='SubmitCreate']")
+2022-10-02 16:19:56,773 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'id_gender1']")
+2022-10-02 16:19:56,871 - INFO - base_page.click - Clicked on element ('xpath', "//input[@id = 'id_gender1']")
+2022-10-02 16:19:56,926 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'customer_firstname']")
+2022-10-02 16:19:57,078 - INFO - base_page.enter_text - Typed Test First in element ('xpath', "//input[@id = 'customer_firstname']")
+2022-10-02 16:19:57,146 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'customer_lastname']")
+2022-10-02 16:19:57,282 - INFO - base_page.enter_text - Typed Test Second in element ('xpath', "//input[@id = 'customer_lastname']")
+2022-10-02 16:19:57,369 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'email']")
+2022-10-02 16:19:57,455 - INFO - base_page.clear_text - Cleared in element ('xpath', "//input[@id = 'email']")
+2022-10-02 16:19:57,582 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('xpath', "//input[@id = 'email']")
+2022-10-02 16:19:57,633 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'passwd']")
+2022-10-02 16:19:57,722 - INFO - base_page.enter_text - Typed Test12345 in element ('xpath', "//input[@id = 'passwd']")
+2022-10-02 16:19:57,823 - INFO - base_page.select_value - Selected 20 from element ('xpath', "//select[@id = 'days']")
+2022-10-02 16:19:57,921 - INFO - base_page.select_value - Selected 4 from element ('xpath', "//select[@id = 'months']")
+2022-10-02 16:19:58,029 - INFO - base_page.select_value - Selected 2001 from element ('xpath', "//select[@id = 'years']")
+2022-10-02 16:19:58,124 - INFO - base_page.enter_text - Typed Test First in element ('xpath', "//input[@id = 'firstname']")
+2022-10-02 16:19:58,224 - INFO - base_page.enter_text - Typed Test Second in element ('xpath', "//input[@id = 'lastname']")
+2022-10-02 16:19:58,303 - INFO - base_page.enter_text - Typed ABC in element ('xpath', "//input[@id = 'company']")
+2022-10-02 16:19:58,421 - INFO - base_page.enter_text - Typed Flat no 123,Test colony in element ('xpath', "//input[@id = 'address1']")
+2022-10-02 16:19:58,532 - INFO - base_page.enter_text - Typed Test Address Line 2 in element ('xpath', "//input[@id = 'address2']")
+2022-10-02 16:19:58,621 - INFO - base_page.enter_text - Typed TestCity in element ('xpath', "//input[@id = 'city']")
+2022-10-02 16:19:58,714 - INFO - base_page.select_visible_text - Selected California from element ('xpath', "//select[@id='id_state']")
+2022-10-02 16:19:58,801 - INFO - base_page.enter_text - Typed 500005 in element ('xpath', "//input[@id = 'postcode']")
+2022-10-02 16:19:58,877 - INFO - base_page.select_visible_text - Selected United States from element ('xpath', "//select[@id = 'id_country']")
+2022-10-02 16:19:58,987 - INFO - base_page.enter_text - Typed Test Additional Info in element ('xpath', "//textarea[@id='other']")
+2022-10-02 16:19:59,088 - INFO - base_page.enter_text - Typed 1234567890 in element ('xpath', "//input[@id='phone_mobile']")
+2022-10-02 16:19:59,192 - INFO - base_page.enter_text - Typed For future reference in element ('xpath', "//input[@id='alias']")
+2022-10-02 16:20:10,197 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id='submitAccount']")
+2022-10-02 18:25:25,958 - ERROR - excel_reader.load_test_data - 'Worksheet Login does not exist.'
+Traceback (most recent call last):
+  File "C:\Users\ravic\PycharmProjects\automationProject\Utils\excel_reader.py", line 27, in load_test_data
+    sheet = wb[sheet_name]
+  File "C:\Users\ravic\PycharmProjects\automationProject\venv\lib\site-packages\openpyxl\workbook\workbook.py", line 288, in __getitem__
+    raise KeyError("Worksheet {0} does not exist.".format(key))
+KeyError: 'Worksheet Login does not exist.'
+2022-10-02 18:25:25,966 - ERROR - excel_reader.get_data - 'Worksheet Login does not exist.'
+Traceback (most recent call last):
+  File "C:\Users\ravic\PycharmProjects\automationProject\Utils\excel_reader.py", line 27, in load_test_data
+    sheet = wb[sheet_name]
+  File "C:\Users\ravic\PycharmProjects\automationProject\venv\lib\site-packages\openpyxl\workbook\workbook.py", line 288, in __getitem__
+    raise KeyError("Worksheet {0} does not exist.".format(key))
+KeyError: 'Worksheet Login does not exist.'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ravic\PycharmProjects\automationProject\Utils\excel_reader.py", line 76, in get_data
+    excel_records = self.load_test_data(excel_name, sheet_name)
+  File "C:\Users\ravic\PycharmProjects\automationProject\Utils\excel_reader.py", line 43, in load_test_data
+    raise Exception(ex)
+Exception: 'Worksheet Login does not exist.'
+2022-10-02 18:29:45,706 - INFO - conftest.read_config_file - Read configuration file
+2022-10-02 18:29:45,707 - INFO - conftest.config_browser - chrome browser configured
+2022-10-02 18:29:48,674 - INFO - conftest.init_driver - Driver was initialized
+2022-10-02 18:29:48,836 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-02 18:29:53,592 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-02 18:29:57,405 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-02 18:29:57,569 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('id', 'email')
+2022-10-02 18:29:57,648 - INFO - base_page.enter_text - Typed Test12345 in element ('xpath', "//input[@id='passwd']")
+2022-10-02 18:30:00,538 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id = 'SubmitLogin']")
+2022-10-02 18:30:03,242 - INFO - conftest.init_driver - Driver was closed
+2022-10-02 18:31:53,653 - INFO - conftest.read_config_file - Read configuration file
+2022-10-02 18:31:53,653 - INFO - conftest.config_browser - chrome browser configured
+2022-10-02 18:31:56,568 - INFO - conftest.init_driver - Driver was initialized
+2022-10-02 18:31:56,718 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-02 18:32:05,689 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-02 18:32:11,772 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-02 18:32:11,926 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('id', 'email')
+2022-10-02 18:32:12,015 - INFO - base_page.enter_text - Typed Test12345 in element ('xpath', "//input[@id='passwd']")
+2022-10-02 18:32:14,419 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id = 'SubmitLogin']")
+2022-10-02 18:32:14,426 - INFO - base_page.get_page_title - Page title is "My account - My Store"
+2022-10-02 18:32:20,110 - INFO - base_page.click - Clicked on element ('xpath', "//*[@class = 'header_user_info']//a[contains(text(),'Sign out')]")
+2022-10-02 18:32:22,430 - INFO - conftest.init_driver - Driver was closed
+2022-10-02 19:29:33,054 - INFO - conftest.read_config_file - Read configuration file
+2022-10-02 19:29:33,054 - INFO - conftest.config_browser - chrome browser configured
+2022-10-02 19:29:36,295 - INFO - conftest.init_driver - Driver was initialized
+2022-10-02 19:29:36,472 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-02 19:29:41,585 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-02 19:29:49,274 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-02 19:29:51,841 - INFO - conftest.init_driver - Driver was closed
+2022-10-02 19:31:18,698 - INFO - conftest.read_config_file - Read configuration file
+2022-10-02 19:31:18,699 - INFO - conftest.config_browser - chrome browser configured
+2022-10-02 19:31:21,653 - INFO - conftest.init_driver - Driver was initialized
+2022-10-02 19:31:21,784 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-02 19:31:26,716 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-02 19:31:28,926 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-02 19:31:29,066 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('id', 'email')
+2022-10-02 19:31:29,161 - INFO - base_page.enter_text - Typed Test12345 in element ('xpath', "//input[@id='passwd']")
+2022-10-02 19:31:30,865 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id = 'SubmitLogin']")
+2022-10-02 19:31:33,050 - INFO - base_page.click - Clicked on element ('xpath', "//a[@title='Home']")
+2022-10-02 19:31:35,711 - INFO - conftest.init_driver - Driver was closed
+2022-10-02 19:34:43,131 - INFO - conftest.read_config_file - Read configuration file
+2022-10-02 19:34:43,131 - INFO - conftest.config_browser - chrome browser configured
+2022-10-02 19:34:46,123 - INFO - conftest.init_driver - Driver was initialized
+2022-10-02 19:34:46,372 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-02 19:34:55,539 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-02 19:34:58,264 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-02 19:34:58,406 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('id', 'email')
+2022-10-02 19:34:58,491 - INFO - base_page.enter_text - Typed Test12345 in element ('xpath', "//input[@id='passwd']")
+2022-10-02 19:35:01,941 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id = 'SubmitLogin']")
+2022-10-02 19:35:12,798 - INFO - base_page.click - Clicked on element ('xpath', "//a[@title='Home']")
+2022-10-02 19:35:15,467 - INFO - conftest.init_driver - Driver was closed
+2022-10-02 19:37:00,058 - INFO - conftest.read_config_file - Read configuration file
+2022-10-02 19:37:00,058 - INFO - conftest.config_browser - chrome browser configured
+2022-10-02 19:37:03,631 - INFO - conftest.init_driver - Driver was initialized
+2022-10-02 19:37:03,797 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-02 19:37:10,582 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-02 19:37:16,157 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-02 19:37:16,309 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('id', 'email')
+2022-10-02 19:37:16,400 - INFO - base_page.enter_text - Typed Test12345 in element ('xpath', "//input[@id='passwd']")
+2022-10-02 19:37:20,277 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id = 'SubmitLogin']")
+2022-10-02 19:37:26,130 - INFO - base_page.click - Clicked on element ('xpath', "//a[@title='Home']")
+2022-10-02 19:38:04,383 - INFO - base_page.click - Clicked on element ('xpath', "//a[@title='Proceed to checkout']")
+2022-10-02 19:38:13,208 - INFO - conftest.init_driver - Driver was closed
+2022-10-02 19:43:21,496 - INFO - conftest.read_config_file - Read configuration file
+2022-10-02 19:43:21,496 - INFO - conftest.config_browser - chrome browser configured
+2022-10-02 19:43:24,395 - INFO - conftest.init_driver - Driver was initialized
+2022-10-02 19:43:24,575 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-02 19:43:31,358 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-02 19:43:33,828 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-02 19:43:33,970 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('id', 'email')
+2022-10-02 19:43:34,060 - INFO - base_page.enter_text - Typed Test12345 in element ('xpath', "//input[@id='passwd']")
+2022-10-02 19:43:35,805 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id = 'SubmitLogin']")
+2022-10-02 19:43:38,133 - INFO - base_page.click - Clicked on element ('xpath', "//a[@title='Home']")
+2022-10-02 19:43:38,292 - INFO - base_page.scroll_to - Scrolled to element using javascript <selenium.webdriver.remote.webelement.WebElement (session="9d02df93f1af64fdc624df70f7ef96f9", element="60a4c34e-8480-44a3-829f-db2f6bbb1535")>
+2022-10-02 19:43:42,488 - INFO - base_page.click - Clicked on element ('xpath', "//a[@title='Proceed to checkout']")
+2022-10-02 19:43:53,034 - ERROR - base_page.wait_for_element - Element ('xpath', "//a[@title='Add to cart']") was not found
+Traceback (most recent call last):
+  File "C:\Users\ravic\PycharmProjects\automationProject\Pages\base_page.py", line 83, in wait_for_element
+    return WebDriverWait(self.driver, 10).until(expected_conditions.element_to_be_clickable(element))
+  File "C:\Users\ravic\PycharmProjects\automationProject\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 90, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00AFDF13+2219795]
+	Ordinal0 [0x00A92841+1779777]
+	Ordinal0 [0x009A423D+803389]
+	Ordinal0 [0x009D3025+995365]
+	Ordinal0 [0x009D31EB+995819]
+	Ordinal0 [0x00A00F52+1183570]
+	Ordinal0 [0x009EE844+1108036]
+	Ordinal0 [0x009FF192+1175954]
+	Ordinal0 [0x009EE616+1107478]
+	Ordinal0 [0x009C7F89+950153]
+	Ordinal0 [0x009C8F56+954198]
+	GetHandleVerifier [0x00DF2CB2+3040210]
+	GetHandleVerifier [0x00DE2BB4+2974420]
+	GetHandleVerifier [0x00B96A0A+565546]
+	GetHandleVerifier [0x00B95680+560544]
+	Ordinal0 [0x00A99A5C+1808988]
+	Ordinal0 [0x00A9E3A8+1827752]
+	Ordinal0 [0x00A9E495+1827989]
+	Ordinal0 [0x00AA80A4+1867940]
+	BaseThreadInitThunk [0x76146739+25]
+	RtlGetFullPathName_UEx [0x77828FD2+1218]
+	RtlGetFullPathName_UEx [0x77828F9D+1165]
+
+2022-10-02 19:43:53,048 - ERROR - base_page.click - Clicking on element ('xpath', "//a[@title='Add to cart']") failed
+Traceback (most recent call last):
+  File "C:\Users\ravic\PycharmProjects\automationProject\Pages\base_page.py", line 83, in wait_for_element
+    return WebDriverWait(self.driver, 10).until(expected_conditions.element_to_be_clickable(element))
+  File "C:\Users\ravic\PycharmProjects\automationProject\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 90, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00AFDF13+2219795]
+	Ordinal0 [0x00A92841+1779777]
+	Ordinal0 [0x009A423D+803389]
+	Ordinal0 [0x009D3025+995365]
+	Ordinal0 [0x009D31EB+995819]
+	Ordinal0 [0x00A00F52+1183570]
+	Ordinal0 [0x009EE844+1108036]
+	Ordinal0 [0x009FF192+1175954]
+	Ordinal0 [0x009EE616+1107478]
+	Ordinal0 [0x009C7F89+950153]
+	Ordinal0 [0x009C8F56+954198]
+	GetHandleVerifier [0x00DF2CB2+3040210]
+	GetHandleVerifier [0x00DE2BB4+2974420]
+	GetHandleVerifier [0x00B96A0A+565546]
+	GetHandleVerifier [0x00B95680+560544]
+	Ordinal0 [0x00A99A5C+1808988]
+	Ordinal0 [0x00A9E3A8+1827752]
+	Ordinal0 [0x00A9E495+1827989]
+	Ordinal0 [0x00AA80A4+1867940]
+	BaseThreadInitThunk [0x76146739+25]
+	RtlGetFullPathName_UEx [0x77828FD2+1218]
+	RtlGetFullPathName_UEx [0x77828F9D+1165]
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ravic\PycharmProjects\automationProject\Pages\base_page.py", line 15, in click
+    self.wait_for_element(element).click()
+  File "C:\Users\ravic\PycharmProjects\automationProject\Pages\base_page.py", line 87, in wait_for_element
+    raise Exception(message)
+Exception: Element ('xpath', "//a[@title='Add to cart']") was not found
+2022-10-02 19:43:55,719 - INFO - conftest.init_driver - Driver was closed
+2022-10-02 19:47:36,277 - INFO - conftest.read_config_file - Read configuration file
+2022-10-02 19:47:36,277 - INFO - conftest.config_browser - chrome browser configured
+2022-10-02 19:47:38,914 - INFO - conftest.init_driver - Driver was initialized
+2022-10-02 19:47:39,071 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-02 19:47:51,621 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-02 19:48:03,529 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-02 19:48:03,707 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('id', 'email')
+2022-10-02 19:48:03,862 - INFO - base_page.enter_text - Typed Test12345 in element ('xpath', "//input[@id='passwd']")
+2022-10-02 19:48:05,808 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id = 'SubmitLogin']")
+2022-10-02 19:48:14,511 - INFO - base_page.click - Clicked on element ('xpath', "//a[@title='Home']")
+2022-10-02 19:48:14,561 - INFO - base_page.scroll_to - Scrolled to element using javascript <selenium.webdriver.remote.webelement.WebElement (session="fbfe9a1be17452fd20cfcb52e1c91a31", element="ba5d3289-95d4-46d7-be8f-6a526e10c6c2")>
+2022-10-02 19:48:23,295 - INFO - base_page.click - Clicked on element ('xpath', "//a[@title='Proceed to checkout']")
+2022-10-02 19:48:23,378 - INFO - base_page.click - Clicked on element ('xpath', "//a[@title='Delete']")
+2022-10-02 19:48:26,000 - INFO - conftest.init_driver - Driver was closed
+2022-10-02 22:31:58,785 - INFO - conftest.read_config_file - Read configuration file
+2022-10-02 22:31:58,785 - INFO - conftest.config_browser - chrome browser configured
+2022-10-02 22:32:01,546 - INFO - conftest.init_driver - Driver was initialized
+2022-10-02 22:32:01,711 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-02 22:32:12,610 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-02 22:32:16,509 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-02 22:32:16,655 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('id', 'email')
+2022-10-02 22:32:16,746 - INFO - base_page.enter_text - Typed Test12345 in element ('xpath', "//input[@id='passwd']")
+2022-10-02 22:32:18,709 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id = 'SubmitLogin']")
+2022-10-02 22:32:20,836 - INFO - base_page.click - Clicked on element ('xpath', "//a[@title='Home']")
+2022-10-02 22:32:20,883 - INFO - base_page.scroll_to - Scrolled to element using javascript <selenium.webdriver.remote.webelement.WebElement (session="fa0c5358224da823100c8886330c33b1", element="5106904a-7e68-451b-93f2-f725fc6ca65d")>
+2022-10-02 22:32:26,051 - INFO - base_page.click - Clicked on element ('xpath', "//a[@title='Proceed to checkout']")
+2022-10-02 22:32:26,168 - INFO - base_page.click - Clicked on element ('xpath', "//a[@title='Delete']")
+2022-10-02 22:32:28,978 - INFO - conftest.init_driver - Driver was closed
+2022-10-02 22:32:58,212 - INFO - conftest.read_config_file - Read configuration file
+2022-10-02 22:32:58,213 - INFO - conftest.config_browser - chrome browser configured
+2022-10-02 22:33:01,107 - INFO - conftest.init_driver - Driver was initialized
+2022-10-02 22:33:01,257 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-02 22:33:07,647 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-02 22:33:11,677 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-02 22:33:11,850 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('id', 'email')
+2022-10-02 22:33:11,937 - INFO - base_page.enter_text - Typed Test12345 in element ('xpath', "//input[@id='passwd']")
+2022-10-02 22:33:13,737 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id = 'SubmitLogin']")
+2022-10-02 22:33:17,695 - INFO - base_page.click - Clicked on element ('xpath', "//a[@title='Home']")
+2022-10-02 22:33:17,860 - INFO - base_page.scroll_to - Scrolled to element using javascript <selenium.webdriver.remote.webelement.WebElement (session="4051c12c530465cb2c0e243256cf78e6", element="11754607-f23b-4255-a2e9-554a9937174b")>
+2022-10-02 22:33:24,799 - INFO - base_page.click - Clicked on element ('xpath', "//a[@title='Proceed to checkout']")
+2022-10-02 22:33:24,896 - INFO - base_page.click - Clicked on element ('xpath', "//a[@title='Delete']")
+2022-10-02 22:35:21,366 - INFO - conftest.init_driver - Driver was closed
+2022-10-02 22:35:44,260 - INFO - conftest.read_config_file - Read configuration file
+2022-10-02 22:35:44,260 - INFO - conftest.config_browser - chrome browser configured
+2022-10-02 22:35:47,848 - INFO - conftest.init_driver - Driver was initialized
+2022-10-02 22:35:47,994 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-02 22:35:53,832 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-02 22:35:55,996 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-02 22:35:56,133 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('id', 'email')
+2022-10-02 22:35:56,215 - INFO - base_page.enter_text - Typed Test12345 in element ('xpath', "//input[@id='passwd']")
+2022-10-02 22:35:58,254 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id = 'SubmitLogin']")
+2022-10-02 22:36:00,862 - INFO - base_page.click - Clicked on element ('xpath', "//a[@title='Home']")
+2022-10-02 22:36:00,993 - INFO - base_page.scroll_to - Scrolled to element using javascript <selenium.webdriver.remote.webelement.WebElement (session="d78b3b983aee1afd50cc1963700de92b", element="ae287198-761e-43f7-98b8-be20fd0f71ec")>
+2022-10-02 22:36:06,019 - INFO - base_page.click - Clicked on element ('xpath', "//a[@title='Proceed to checkout']")
+2022-10-02 22:36:06,106 - INFO - base_page.click - Clicked on element ('xpath', "//a[@title='Delete']")
+2022-10-02 22:36:08,677 - INFO - conftest.init_driver - Driver was closed
+2022-10-02 22:39:05,332 - INFO - conftest.read_config_file - Read configuration file
+2022-10-02 22:39:05,332 - INFO - conftest.config_browser - chrome browser configured
+2022-10-02 22:39:08,091 - INFO - conftest.init_driver - Driver was initialized
+2022-10-02 22:39:08,245 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-02 22:39:14,651 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-02 22:39:18,346 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-02 22:39:18,497 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('id', 'email')
+2022-10-02 22:39:18,579 - INFO - base_page.enter_text - Typed Test12345 in element ('xpath', "//input[@id='passwd']")
+2022-10-02 22:39:21,796 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id = 'SubmitLogin']")
+2022-10-02 22:39:29,130 - INFO - base_page.click - Clicked on element ('xpath', "//a[@title='Home']")
+2022-10-02 22:39:29,289 - INFO - base_page.scroll_to - Scrolled to element using javascript <selenium.webdriver.remote.webelement.WebElement (session="1ca1e007681cbdd365af31642bb878d5", element="094c1aeb-37b1-460d-ba8b-82a830d0e365")>
+2022-10-02 22:39:53,065 - INFO - base_page.click - Clicked on element ('xpath', "//a[@title='Proceed to checkout']")
+2022-10-02 22:39:53,134 - INFO - base_page.click - Clicked on element ('xpath', "//a[@title='Delete']")
+2022-10-02 22:39:59,798 - INFO - conftest.init_driver - Driver was closed
+2022-10-02 22:40:55,485 - INFO - conftest.read_config_file - Read configuration file
+2022-10-02 22:40:55,486 - INFO - conftest.config_browser - chrome browser configured
+2022-10-02 22:40:58,084 - INFO - conftest.init_driver - Driver was initialized
+2022-10-02 22:40:58,229 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-02 22:41:04,441 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-02 22:41:07,414 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-02 22:41:07,556 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('id', 'email')
+2022-10-02 22:41:07,645 - INFO - base_page.enter_text - Typed Test12345 in element ('xpath', "//input[@id='passwd']")
+2022-10-02 22:41:13,605 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id = 'SubmitLogin']")
+2022-10-02 22:41:17,419 - INFO - base_page.click - Clicked on element ('xpath', "//a[@title='Home']")
+2022-10-02 22:41:17,543 - INFO - base_page.scroll_to - Scrolled to element using javascript <selenium.webdriver.remote.webelement.WebElement (session="a34b0ebfb41391672e083bda49cb562b", element="8082e2ee-f19f-4f49-9b61-aa5eed9cde82")>
+2022-10-02 22:41:22,934 - INFO - base_page.click - Clicked on element ('xpath', "//a[@title='Proceed to checkout']")
+2022-10-02 22:41:23,033 - INFO - base_page.click - Clicked on element ('xpath', "//a[@title='Delete']")
+2022-10-02 22:42:13,089 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//*[@class = 'header_user_info']//a[contains(text(),'Sign out')]")
+2022-10-02 22:42:15,065 - INFO - base_page.click - Clicked on element ('xpath', "//*[@class = 'header_user_info']//a[contains(text(),'Sign out')]")
+2022-10-02 22:42:23,295 - INFO - conftest.init_driver - Driver was closed
+2022-10-02 22:47:47,566 - INFO - conftest.read_config_file - Read configuration file
+2022-10-02 22:47:47,567 - INFO - conftest.config_browser - chrome browser configured
+2022-10-02 22:47:50,422 - INFO - conftest.init_driver - Driver was initialized
+2022-10-02 22:47:50,692 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-02 22:47:56,865 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-02 22:47:59,236 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-02 22:47:59,374 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('id', 'email')
+2022-10-02 22:47:59,454 - INFO - base_page.enter_text - Typed Test12345 in element ('xpath', "//input[@id='passwd']")
+2022-10-02 22:48:02,400 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id = 'SubmitLogin']")
+2022-10-02 22:48:05,746 - INFO - base_page.click - Clicked on element ('xpath', "//a[@title='Home']")
+2022-10-02 22:48:05,796 - INFO - base_page.scroll_to - Scrolled to element using javascript <selenium.webdriver.remote.webelement.WebElement (session="840b9c482e0759b818b58f5a8fc771fb", element="61bf7a82-dbf9-477e-91dd-7aec988f1bf7")>
+2022-10-02 22:48:10,265 - INFO - base_page.click - Clicked on element ('xpath', "//a[@title='Proceed to checkout']")
+2022-10-02 22:48:10,358 - INFO - base_page.click - Clicked on element ('xpath', "//a[@title='Delete']")
+2022-10-02 22:48:24,423 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//*[@class = 'header_user_info']//a[contains(text(),'Sign out')]")
+2022-10-02 22:48:32,365 - INFO - base_page.click - Clicked on element ('xpath', "//*[@class = 'header_user_info']//a[contains(text(),'Sign out')]")
+2022-10-02 22:48:34,684 - INFO - conftest.init_driver - Driver was closed
+2022-10-02 23:11:00,730 - INFO - conftest.read_config_file - Read configuration file
+2022-10-02 23:11:00,731 - INFO - conftest.config_browser - chrome browser configured
+2022-10-02 23:11:03,621 - INFO - conftest.init_driver - Driver was initialized
+2022-10-02 23:11:03,796 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-02 23:11:14,627 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-02 23:11:23,370 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-02 23:11:23,504 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('id', 'email')
+2022-10-02 23:11:23,588 - INFO - base_page.enter_text - Typed Test12345 in element ('xpath', "//input[@id='passwd']")
+2022-10-02 23:11:30,124 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id = 'SubmitLogin']")
+2022-10-02 23:11:30,130 - INFO - base_page.get_page_title - Page title is "My account - My Store"
+2022-10-02 23:11:30,183 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//*[@class = 'header_user_info']//a[contains(text(),'Sign out')]")
+2022-10-02 23:11:34,482 - INFO - base_page.click - Clicked on element ('xpath', "//*[@class = 'header_user_info']//a[contains(text(),'Sign out')]")
+2022-10-02 23:11:36,816 - INFO - conftest.init_driver - Driver was closed
+2022-10-02 23:19:44,918 - INFO - conftest.read_config_file - Read configuration file
+2022-10-02 23:19:44,918 - INFO - conftest.config_browser - chrome browser configured
+2022-10-02 23:19:47,893 - INFO - conftest.init_driver - Driver was initialized
+2022-10-02 23:19:48,096 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-02 23:19:54,706 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-02 23:20:01,580 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-02 23:20:01,716 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('id', 'email')
+2022-10-02 23:20:01,805 - INFO - base_page.enter_text - Typed Test12345 in element ('xpath', "//input[@id='passwd']")
+2022-10-02 23:20:05,571 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id = 'SubmitLogin']")
+2022-10-02 23:20:07,987 - INFO - base_page.click - Clicked on element ('xpath', "//a[@title='Home']")
+2022-10-02 23:20:08,025 - INFO - base_page.scroll_to - Scrolled to element using javascript <selenium.webdriver.remote.webelement.WebElement (session="5704b684175483e5b113f199d315e5c2", element="a8445f16-9348-4487-9138-d8bcc4161164")>
+2022-10-02 23:20:14,469 - INFO - base_page.click - Clicked on element ('xpath', "//a[@title='Proceed to checkout']")
+2022-10-02 23:20:14,573 - INFO - base_page.click - Clicked on element ('xpath', "//a[@title='Delete']")
+2022-10-02 23:20:31,724 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//*[@class = 'header_user_info']//a[contains(text(),'Sign out')]")
+2022-10-02 23:20:33,663 - INFO - base_page.click - Clicked on element ('xpath', "//*[@class = 'header_user_info']//a[contains(text(),'Sign out')]")
+2022-10-02 23:20:35,958 - INFO - conftest.init_driver - Driver was closed
+2022-10-02 23:20:35,973 - INFO - conftest.read_config_file - Read configuration file
+2022-10-02 23:20:35,973 - INFO - conftest.config_browser - chrome browser configured
+2022-10-02 23:20:39,982 - INFO - conftest.init_driver - Driver was initialized
+2022-10-02 23:20:40,134 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-02 23:20:46,855 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-02 23:20:53,260 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-02 23:20:53,398 - INFO - base_page.enter_text - Typed ravichandra.nerella456@gmail.com in element ('id', 'email')
+2022-10-02 23:20:53,480 - INFO - base_page.enter_text - Typed Test12345 in element ('xpath', "//input[@id='passwd']")
+2022-10-02 23:21:05,202 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id = 'SubmitLogin']")
+2022-10-02 23:21:05,207 - INFO - base_page.get_page_title - Page title is "My account - My Store"
+2022-10-02 23:21:05,248 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//*[@class = 'header_user_info']//a[contains(text(),'Sign out')]")
+2022-10-02 23:21:11,589 - INFO - base_page.click - Clicked on element ('xpath', "//*[@class = 'header_user_info']//a[contains(text(),'Sign out')]")
+2022-10-02 23:21:13,873 - INFO - conftest.init_driver - Driver was closed
+2022-10-02 23:39:59,034 - INFO - conftest.read_config_file - Read configuration file
+2022-10-02 23:39:59,034 - INFO - conftest.config_browser - chrome browser configured
+2022-10-02 23:40:01,970 - INFO - conftest.init_driver - Driver was initialized
+2022-10-02 23:40:02,125 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-02 23:40:08,380 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-02 23:40:11,040 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-02 23:40:13,672 - INFO - conftest.init_driver - Driver was closed
+2022-10-02 23:43:44,238 - INFO - conftest.read_config_file - Read configuration file
+2022-10-02 23:43:44,238 - INFO - conftest.config_browser - chrome browser configured
+2022-10-02 23:43:47,253 - INFO - conftest.init_driver - Driver was initialized
+2022-10-02 23:43:47,397 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-02 23:43:53,962 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-02 23:43:56,945 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-02 23:43:57,085 - INFO - base_page.enter_text - Typed testCheck@gmail.com in element ('xpath', "//input[@id='email_create']")
+2022-10-02 23:43:57,164 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id='SubmitCreate']")
+2022-10-02 23:43:59,679 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'id_gender1']")
+2022-10-02 23:43:59,749 - INFO - base_page.click - Clicked on element ('xpath', "//input[@id = 'id_gender1']")
+2022-10-02 23:43:59,787 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'customer_firstname']")
+2022-10-02 23:43:59,910 - INFO - base_page.enter_text - Typed Test First in element ('xpath', "//input[@id = 'customer_firstname']")
+2022-10-02 23:43:59,963 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'customer_lastname']")
+2022-10-02 23:44:00,087 - INFO - base_page.enter_text - Typed Test Second in element ('xpath', "//input[@id = 'customer_lastname']")
+2022-10-02 23:44:00,140 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'email']")
+2022-10-02 23:44:00,255 - INFO - base_page.clear_text - Cleared in element ('xpath', "//input[@id = 'email']")
+2022-10-02 23:44:00,356 - INFO - base_page.enter_text - Typed testCheck@gmail.com in element ('xpath', "//input[@id = 'email']")
+2022-10-02 23:44:00,389 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'passwd']")
+2022-10-02 23:44:00,462 - INFO - base_page.enter_text - Typed Test12345 in element ('xpath', "//input[@id = 'passwd']")
+2022-10-02 23:44:00,562 - INFO - base_page.select_value - Selected 20 from element ('xpath', "//select[@id = 'days']")
+2022-10-02 23:44:00,648 - INFO - base_page.select_value - Selected 4 from element ('xpath', "//select[@id = 'months']")
+2022-10-02 23:44:00,738 - INFO - base_page.select_value - Selected 2001 from element ('xpath', "//select[@id = 'years']")
+2022-10-02 23:44:00,836 - INFO - base_page.enter_text - Typed Test First in element ('xpath', "//input[@id = 'firstname']")
+2022-10-02 23:44:00,930 - INFO - base_page.enter_text - Typed Test Second in element ('xpath', "//input[@id = 'lastname']")
+2022-10-02 23:44:01,021 - INFO - base_page.enter_text - Typed ABC in element ('xpath', "//input[@id = 'company']")
+2022-10-02 23:44:01,144 - INFO - base_page.enter_text - Typed Flat no 123,Test colony in element ('xpath', "//input[@id = 'address1']")
+2022-10-02 23:44:01,263 - INFO - base_page.enter_text - Typed Test Address Line 2 in element ('xpath', "//input[@id = 'address2']")
+2022-10-02 23:44:01,358 - INFO - base_page.enter_text - Typed TestCity in element ('xpath', "//input[@id = 'city']")
+2022-10-02 23:44:01,447 - INFO - base_page.select_visible_text - Selected California from element ('xpath', "//select[@id='id_state']")
+2022-10-02 23:44:01,532 - INFO - base_page.enter_text - Typed 500005 in element ('xpath', "//input[@id = 'postcode']")
+2022-10-02 23:44:01,583 - INFO - base_page.select_visible_text - Selected United States from element ('xpath', "//select[@id = 'id_country']")
+2022-10-02 23:44:01,672 - INFO - base_page.enter_text - Typed Test Additional Info in element ('xpath', "//textarea[@id='other']")
+2022-10-02 23:44:01,762 - INFO - base_page.enter_text - Typed 1234567890 in element ('xpath', "//input[@id='phone_mobile']")
+2022-10-02 23:44:01,873 - INFO - base_page.enter_text - Typed For future reference in element ('xpath', "//input[@id='alias']")
+2022-10-02 23:44:04,657 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id='submitAccount']")
+2022-10-02 23:44:04,665 - INFO - base_page.get_page_title - Page title is "Login - My Store"
+2022-10-02 23:44:07,310 - INFO - conftest.init_driver - Driver was closed
+2022-10-02 23:48:43,330 - INFO - conftest.read_config_file - Read configuration file
+2022-10-02 23:48:43,330 - INFO - conftest.config_browser - chrome browser configured
+2022-10-02 23:48:46,015 - INFO - conftest.init_driver - Driver was initialized
+2022-10-02 23:48:46,167 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-02 23:48:54,272 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-02 23:48:57,847 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-02 23:48:57,990 - INFO - base_page.enter_text - Typed testCheck@gmail.com in element ('xpath', "//input[@id='email_create']")
+2022-10-02 23:48:58,064 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id='SubmitCreate']")
+2022-10-02 23:48:59,791 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'id_gender1']")
+2022-10-02 23:48:59,890 - INFO - base_page.click - Clicked on element ('xpath', "//input[@id = 'id_gender1']")
+2022-10-02 23:48:59,937 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'customer_firstname']")
+2022-10-02 23:49:00,067 - INFO - base_page.enter_text - Typed Test First in element ('xpath', "//input[@id = 'customer_firstname']")
+2022-10-02 23:49:00,110 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'customer_lastname']")
+2022-10-02 23:49:00,247 - INFO - base_page.enter_text - Typed Test Second in element ('xpath', "//input[@id = 'customer_lastname']")
+2022-10-02 23:49:00,291 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'email']")
+2022-10-02 23:49:00,413 - INFO - base_page.clear_text - Cleared in element ('xpath', "//input[@id = 'email']")
+2022-10-02 23:49:00,512 - INFO - base_page.enter_text - Typed testCheck@gmail.com in element ('xpath', "//input[@id = 'email']")
+2022-10-02 23:49:00,546 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'passwd']")
+2022-10-02 23:49:00,629 - INFO - base_page.enter_text - Typed Test12345 in element ('xpath', "//input[@id = 'passwd']")
+2022-10-02 23:49:00,706 - INFO - base_page.select_value - Selected 20 from element ('xpath', "//select[@id = 'days']")
+2022-10-02 23:49:00,769 - INFO - base_page.select_value - Selected 4 from element ('xpath', "//select[@id = 'months']")
+2022-10-02 23:49:00,837 - INFO - base_page.select_value - Selected 2001 from element ('xpath', "//select[@id = 'years']")
+2022-10-02 23:49:00,928 - INFO - base_page.enter_text - Typed Test First in element ('xpath', "//input[@id = 'firstname']")
+2022-10-02 23:49:01,029 - INFO - base_page.enter_text - Typed Test Second in element ('xpath', "//input[@id = 'lastname']")
+2022-10-02 23:49:01,109 - INFO - base_page.enter_text - Typed ABC in element ('xpath', "//input[@id = 'company']")
+2022-10-02 23:49:01,222 - INFO - base_page.enter_text - Typed Flat no 123,Test colony in element ('xpath', "//input[@id = 'address1']")
+2022-10-02 23:49:01,327 - INFO - base_page.enter_text - Typed Test Address Line 2 in element ('xpath', "//input[@id = 'address2']")
+2022-10-02 23:49:01,413 - INFO - base_page.enter_text - Typed TestCity in element ('xpath', "//input[@id = 'city']")
+2022-10-02 23:49:01,487 - INFO - base_page.select_visible_text - Selected California from element ('xpath', "//select[@id='id_state']")
+2022-10-02 23:49:01,563 - INFO - base_page.enter_text - Typed 50000 in element ('xpath', "//input[@id = 'postcode']")
+2022-10-02 23:49:01,608 - INFO - base_page.select_visible_text - Selected United States from element ('xpath', "//select[@id = 'id_country']")
+2022-10-02 23:49:01,719 - INFO - base_page.enter_text - Typed Test Additional Info in element ('xpath', "//textarea[@id='other']")
+2022-10-02 23:49:01,821 - INFO - base_page.enter_text - Typed 1234567890 in element ('xpath', "//input[@id='phone_mobile']")
+2022-10-02 23:49:01,933 - INFO - base_page.enter_text - Typed For future reference in element ('xpath', "//input[@id='alias']")
+2022-10-02 23:49:05,505 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id='submitAccount']")
+2022-10-02 23:49:05,511 - INFO - base_page.get_page_title - Page title is "My account - My Store"
+2022-10-02 23:49:05,547 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//*[@class = 'header_user_info']//a[contains(text(),'Sign out')]")
+2022-10-02 23:49:08,677 - INFO - base_page.click - Clicked on element ('xpath', "//*[@class = 'header_user_info']//a[contains(text(),'Sign out')]")
+2022-10-02 23:49:12,159 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-02 23:49:12,264 - INFO - base_page.enter_text - Typed testCheckagain@gmail.com in element ('xpath', "//input[@id='email_create']")
+2022-10-02 23:49:12,333 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id='SubmitCreate']")
+2022-10-02 23:49:14,001 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'id_gender1']")
+2022-10-02 23:49:14,092 - INFO - base_page.click - Clicked on element ('xpath', "//input[@id = 'id_gender1']")
+2022-10-02 23:49:14,140 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'customer_firstname']")
+2022-10-02 23:49:14,255 - INFO - base_page.enter_text - Typed Test First in element ('xpath', "//input[@id = 'customer_firstname']")
+2022-10-02 23:49:14,303 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'customer_lastname']")
+2022-10-02 23:49:14,434 - INFO - base_page.enter_text - Typed Test Second in element ('xpath', "//input[@id = 'customer_lastname']")
+2022-10-02 23:49:14,488 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'email']")
+2022-10-02 23:49:14,590 - INFO - base_page.clear_text - Cleared in element ('xpath', "//input[@id = 'email']")
+2022-10-02 23:49:14,688 - INFO - base_page.enter_text - Typed testCheckagain@gmail.com in element ('xpath', "//input[@id = 'email']")
+2022-10-02 23:49:14,726 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'passwd']")
+2022-10-02 23:49:14,809 - INFO - base_page.enter_text - Typed Test12345 in element ('xpath', "//input[@id = 'passwd']")
+2022-10-02 23:49:14,875 - INFO - base_page.select_value - Selected 20 from element ('xpath', "//select[@id = 'days']")
+2022-10-02 23:49:14,948 - INFO - base_page.select_value - Selected 4 from element ('xpath', "//select[@id = 'months']")
+2022-10-02 23:49:15,024 - INFO - base_page.select_value - Selected 2001 from element ('xpath', "//select[@id = 'years']")
+2022-10-02 23:49:15,137 - INFO - base_page.enter_text - Typed Test First in element ('xpath', "//input[@id = 'firstname']")
+2022-10-02 23:49:15,228 - INFO - base_page.enter_text - Typed Test Second in element ('xpath', "//input[@id = 'lastname']")
+2022-10-02 23:49:15,321 - INFO - base_page.enter_text - Typed ABC in element ('xpath', "//input[@id = 'company']")
+2022-10-02 23:49:15,432 - INFO - base_page.enter_text - Typed Flat no 123,Test colony in element ('xpath', "//input[@id = 'address1']")
+2022-10-02 23:49:15,534 - INFO - base_page.enter_text - Typed Test Address Line 2 in element ('xpath', "//input[@id = 'address2']")
+2022-10-02 23:49:15,612 - INFO - base_page.enter_text - Typed TestCity in element ('xpath', "//input[@id = 'city']")
+2022-10-02 23:49:15,680 - INFO - base_page.select_visible_text - Selected California from element ('xpath', "//select[@id='id_state']")
+2022-10-02 23:49:15,754 - INFO - base_page.enter_text - Typed 50000 in element ('xpath', "//input[@id = 'postcode']")
+2022-10-02 23:49:15,801 - INFO - base_page.select_visible_text - Selected United States from element ('xpath', "//select[@id = 'id_country']")
+2022-10-02 23:49:15,890 - INFO - base_page.enter_text - Typed Test Additional Info in element ('xpath', "//textarea[@id='other']")
+2022-10-02 23:49:15,983 - INFO - base_page.enter_text - Typed 1234567890 in element ('xpath', "//input[@id='phone_mobile']")
+2022-10-02 23:49:16,089 - INFO - base_page.enter_text - Typed For future reference in element ('xpath', "//input[@id='alias']")
+2022-10-02 23:49:18,154 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id='submitAccount']")
+2022-10-02 23:49:18,160 - INFO - base_page.get_page_title - Page title is "My account - My Store"
+2022-10-02 23:49:18,206 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//*[@class = 'header_user_info']//a[contains(text(),'Sign out')]")
+2022-10-02 23:49:21,512 - INFO - base_page.click - Clicked on element ('xpath', "//*[@class = 'header_user_info']//a[contains(text(),'Sign out')]")
+2022-10-02 23:49:23,798 - INFO - conftest.init_driver - Driver was closed
+2022-10-03 00:08:22,373 - INFO - conftest.read_config_file - Read configuration file
+2022-10-03 00:08:22,373 - INFO - conftest.config_browser - chrome browser configured
+2022-10-03 00:08:27,751 - INFO - conftest.init_driver - Driver was initialized
+2022-10-03 00:08:27,987 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-03 00:08:34,495 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-03 00:08:36,824 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-03 00:08:36,952 - INFO - base_page.enter_text - Typed testCheck@gmail.com in element ('xpath', "//input[@id='email_create']")
+2022-10-03 00:08:37,030 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id='SubmitCreate']")
+2022-10-03 00:08:40,902 - INFO - conftest.init_driver - Driver was closed
+2022-10-03 00:08:43,129 - INFO - conftest.init_driver - Driver was initialized
+2022-10-03 00:08:43,291 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-03 00:08:50,497 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-03 00:08:53,142 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-03 00:08:53,225 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id='SubmitCreate']")
+2022-10-03 00:08:56,559 - INFO - conftest.init_driver - Driver was closed
+2022-10-03 00:14:00,366 - INFO - conftest.read_config_file - Read configuration file
+2022-10-03 00:14:00,366 - INFO - conftest.config_browser - chrome browser configured
+2022-10-03 00:14:03,110 - INFO - conftest.init_driver - Driver was initialized
+2022-10-03 00:14:03,272 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-03 00:14:08,692 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-03 00:14:10,906 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-03 00:14:11,031 - INFO - base_page.enter_text - Typed testCheck10@gmail.com in element ('xpath', "//input[@id='email_create']")
+2022-10-03 00:14:11,106 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id='SubmitCreate']")
+2022-10-03 00:14:23,786 - ERROR - base_page.is_element_displayed - Element ('id', 'create_account_error') is not displayed
+Traceback (most recent call last):
+  File "C:\Users\ravic\PycharmProjects\automationProject\Pages\base_page.py", line 75, in is_element_displayed
+    WebDriverWait(self.driver, 10).until(expected_conditions.visibility_of_element_located(element)))
+  File "C:\Users\ravic\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\support\wait.py", line 90, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00AFDF13+2219795]
+	Ordinal0 [0x00A92841+1779777]
+	Ordinal0 [0x009A423D+803389]
+	Ordinal0 [0x009D3025+995365]
+	Ordinal0 [0x009D31EB+995819]
+	Ordinal0 [0x00A00F52+1183570]
+	Ordinal0 [0x009EE844+1108036]
+	Ordinal0 [0x009FF192+1175954]
+	Ordinal0 [0x009EE616+1107478]
+	Ordinal0 [0x009C7F89+950153]
+	Ordinal0 [0x009C8F56+954198]
+	GetHandleVerifier [0x00DF2CB2+3040210]
+	GetHandleVerifier [0x00DE2BB4+2974420]
+	GetHandleVerifier [0x00B96A0A+565546]
+	GetHandleVerifier [0x00B95680+560544]
+	Ordinal0 [0x00A99A5C+1808988]
+	Ordinal0 [0x00A9E3A8+1827752]
+	Ordinal0 [0x00A9E495+1827989]
+	Ordinal0 [0x00AA80A4+1867940]
+	BaseThreadInitThunk [0x76146739+25]
+	RtlGetFullPathName_UEx [0x77828FD2+1218]
+	RtlGetFullPathName_UEx [0x77828F9D+1165]
+
+2022-10-03 00:14:26,512 - INFO - conftest.init_driver - Driver was closed
+2022-10-03 00:26:55,430 - INFO - conftest.read_config_file - Read configuration file
+2022-10-03 00:26:55,437 - INFO - conftest.config_browser - chrome browser configured
+2022-10-03 00:26:58,556 - INFO - conftest.init_driver - Driver was initialized
+2022-10-03 00:26:58,701 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-03 00:27:12,578 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-03 00:27:22,639 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-03 00:27:22,769 - INFO - base_page.enter_text - Typed testCheck10@gmail.com in element ('xpath', "//input[@id='email_create']")
+2022-10-03 00:27:22,841 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id='SubmitCreate']")
+2022-10-03 00:27:27,995 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'id_gender1']")
+2022-10-03 00:27:28,076 - INFO - base_page.click - Clicked on element ('xpath', "//input[@id = 'id_gender1']")
+2022-10-03 00:27:28,123 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'customer_firstname']")
+2022-10-03 00:27:28,261 - INFO - base_page.enter_text - Typed Test First in element ('xpath', "//input[@id = 'customer_firstname']")
+2022-10-03 00:27:28,311 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'customer_lastname']")
+2022-10-03 00:27:28,454 - INFO - base_page.enter_text - Typed Test Second in element ('xpath', "//input[@id = 'customer_lastname']")
+2022-10-03 00:27:28,511 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'email']")
+2022-10-03 00:27:28,630 - INFO - base_page.clear_text - Cleared in element ('xpath', "//input[@id = 'email']")
+2022-10-03 00:27:28,723 - INFO - base_page.enter_text - Typed testCheck10@gmail.com in element ('xpath', "//input[@id = 'email']")
+2022-10-03 00:27:28,757 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//input[@id = 'passwd']")
+2022-10-03 00:27:28,840 - INFO - base_page.enter_text - Typed Test12345 in element ('xpath', "//input[@id = 'passwd']")
+2022-10-03 00:27:28,914 - INFO - base_page.select_value - Selected 20 from element ('xpath', "//select[@id = 'days']")
+2022-10-03 00:27:28,990 - INFO - base_page.select_value - Selected 4 from element ('xpath', "//select[@id = 'months']")
+2022-10-03 00:27:29,073 - INFO - base_page.select_value - Selected 2001 from element ('xpath', "//select[@id = 'years']")
+2022-10-03 00:27:29,163 - INFO - base_page.enter_text - Typed Test First in element ('xpath', "//input[@id = 'firstname']")
+2022-10-03 00:27:29,255 - INFO - base_page.enter_text - Typed Test Second in element ('xpath', "//input[@id = 'lastname']")
+2022-10-03 00:27:29,343 - INFO - base_page.enter_text - Typed ABC in element ('xpath', "//input[@id = 'company']")
+2022-10-03 00:27:29,473 - INFO - base_page.enter_text - Typed Flat no 123,Test colony in element ('xpath', "//input[@id = 'address1']")
+2022-10-03 00:27:29,574 - INFO - base_page.enter_text - Typed Test Address Line 2 in element ('xpath', "//input[@id = 'address2']")
+2022-10-03 00:27:29,656 - INFO - base_page.enter_text - Typed TestCity in element ('xpath', "//input[@id = 'city']")
+2022-10-03 00:27:29,739 - INFO - base_page.select_visible_text - Selected California from element ('xpath', "//select[@id='id_state']")
+2022-10-03 00:27:29,834 - INFO - base_page.enter_text - Typed 50000 in element ('xpath', "//input[@id = 'postcode']")
+2022-10-03 00:27:29,903 - INFO - base_page.select_visible_text - Selected United States from element ('xpath', "//select[@id = 'id_country']")
+2022-10-03 00:27:30,002 - INFO - base_page.enter_text - Typed Test Additional Info in element ('xpath', "//textarea[@id='other']")
+2022-10-03 00:27:30,092 - INFO - base_page.enter_text - Typed 1234567890 in element ('xpath', "//input[@id='phone_mobile']")
+2022-10-03 00:27:30,195 - INFO - base_page.enter_text - Typed For future reference in element ('xpath', "//input[@id='alias']")
+2022-10-03 00:27:46,451 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id='submitAccount']")
+2022-10-03 00:27:46,460 - INFO - base_page.get_page_title - Page title is "My account - My Store"
+2022-10-03 00:27:46,507 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//*[@class = 'header_user_info']//a[contains(text(),'Sign out')]")
+2022-10-03 00:27:54,123 - INFO - base_page.click - Clicked on element ('xpath', "//*[@class = 'header_user_info']//a[contains(text(),'Sign out')]")
+2022-10-03 00:28:07,956 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-03 00:28:08,062 - INFO - base_page.enter_text - Typed testCheckagain@gmail.com in element ('xpath', "//input[@id='email_create']")
+2022-10-03 00:28:08,135 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id='SubmitCreate']")
+2022-10-03 00:28:18,659 - ERROR - base_page.wait_for_element_visible - Element ('xpath', "//h1[text()='Create an account']") was not found
+Traceback (most recent call last):
+  File "C:\Users\ravic\PycharmProjects\automationProject\Pages\base_page.py", line 91, in wait_for_element_visible
+    return WebDriverWait(self.driver, 10).until(expected_conditions.presence_of_element_located(element))
+  File "C:\Users\ravic\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\support\wait.py", line 90, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00AFDF13+2219795]
+	Ordinal0 [0x00A92841+1779777]
+	Ordinal0 [0x009A423D+803389]
+	Ordinal0 [0x009D3025+995365]
+	Ordinal0 [0x009D31EB+995819]
+	Ordinal0 [0x00A00F52+1183570]
+	Ordinal0 [0x009EE844+1108036]
+	Ordinal0 [0x009FF192+1175954]
+	Ordinal0 [0x009EE616+1107478]
+	Ordinal0 [0x009C7F89+950153]
+	Ordinal0 [0x009C8F56+954198]
+	GetHandleVerifier [0x00DF2CB2+3040210]
+	GetHandleVerifier [0x00DE2BB4+2974420]
+	GetHandleVerifier [0x00B96A0A+565546]
+	GetHandleVerifier [0x00B95680+560544]
+	Ordinal0 [0x00A99A5C+1808988]
+	Ordinal0 [0x00A9E3A8+1827752]
+	Ordinal0 [0x00A9E495+1827989]
+	Ordinal0 [0x00AA80A4+1867940]
+	BaseThreadInitThunk [0x76146739+25]
+	RtlGetFullPathName_UEx [0x77828FD2+1218]
+	RtlGetFullPathName_UEx [0x77828F9D+1165]
+
+2022-10-03 00:28:21,304 - INFO - conftest.init_driver - Driver was closed
+2022-10-03 00:32:46,239 - INFO - conftest.read_config_file - Read configuration file
+2022-10-03 00:32:46,239 - INFO - conftest.config_browser - chrome browser configured
+2022-10-03 00:32:49,581 - INFO - conftest.init_driver - Driver was initialized
+2022-10-03 00:32:49,870 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-03 00:32:56,340 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-03 00:33:01,901 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-03 00:33:02,023 - INFO - base_page.enter_text - Typed testCheck10@gmail.com in element ('xpath', "//input[@id='email_create']")
+2022-10-03 00:33:02,098 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id='SubmitCreate']")
+2022-10-03 00:33:14,828 - INFO - conftest.init_driver - Driver was closed
+2022-10-03 00:36:56,811 - INFO - conftest.read_config_file - Read configuration file
+2022-10-03 00:36:56,811 - INFO - conftest.config_browser - chrome browser configured
+2022-10-03 00:36:59,403 - INFO - conftest.init_driver - Driver was initialized
+2022-10-03 00:36:59,578 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-03 00:37:15,829 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-03 00:37:30,762 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-03 00:37:30,884 - INFO - base_page.enter_text - Typed testCheck10@gmail.com in element ('xpath', "//input[@id='email_create']")
+2022-10-03 00:37:30,959 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id='SubmitCreate']")
+2022-10-03 00:37:43,490 - INFO - conftest.init_driver - Driver was closed
+2022-10-03 01:02:48,719 - INFO - conftest.read_config_file - Read configuration file
+2022-10-03 01:02:48,719 - INFO - conftest.config_browser - chrome browser configured
+2022-10-03 01:02:52,223 - INFO - conftest.init_driver - Driver was initialized
+2022-10-03 01:02:52,363 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-03 01:02:58,793 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-03 01:03:00,807 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-03 01:03:00,902 - INFO - base_page.enter_text - Typed  in element ('id', 'email')
+2022-10-03 01:03:00,980 - INFO - base_page.enter_text - Typed  in element ('xpath', "//input[@id='passwd']")
+2022-10-03 01:03:02,983 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id = 'SubmitLogin']")
+2022-10-03 01:03:05,204 - INFO - conftest.init_driver - Driver was closed
+2022-10-03 01:03:07,574 - INFO - conftest.init_driver - Driver was initialized
+2022-10-03 01:03:07,722 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-03 01:03:14,202 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-03 01:03:17,774 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-03 01:03:17,899 - INFO - base_page.enter_text - Typed test@test.com in element ('id', 'email')
+2022-10-03 01:03:17,978 - INFO - base_page.enter_text - Typed  in element ('xpath', "//input[@id='passwd']")
+2022-10-03 01:03:21,290 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id = 'SubmitLogin']")
+2022-10-03 01:03:23,540 - INFO - conftest.init_driver - Driver was closed
+2022-10-03 01:03:25,908 - INFO - conftest.init_driver - Driver was initialized
+2022-10-03 01:03:26,055 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-03 01:03:34,384 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-03 01:03:38,953 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-03 01:03:39,075 - INFO - base_page.enter_text - Typed testCheck@gmail.com in element ('id', 'email')
+2022-10-03 01:03:39,171 - INFO - base_page.enter_text - Typed WrongPassword in element ('xpath', "//input[@id='passwd']")
+2022-10-03 01:03:41,290 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id = 'SubmitLogin']")
+2022-10-03 01:03:43,552 - INFO - conftest.init_driver - Driver was closed
+2022-10-03 01:03:43,557 - INFO - conftest.read_config_file - Read configuration file
+2022-10-03 01:03:43,559 - INFO - conftest.config_browser - chrome browser configured
+2022-10-03 01:03:45,802 - INFO - conftest.init_driver - Driver was initialized
+2022-10-03 01:03:45,942 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-03 01:03:58,075 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-03 01:04:08,852 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-03 01:04:08,964 - INFO - base_page.enter_text - Typed testCheck@gmail.com in element ('xpath', "//input[@id='email_create']")
+2022-10-03 01:04:09,038 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id='SubmitCreate']")
+2022-10-03 01:04:14,494 - INFO - conftest.init_driver - Driver was closed
+2022-10-03 01:04:16,824 - INFO - conftest.init_driver - Driver was initialized
+2022-10-03 01:04:16,986 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-03 01:04:24,837 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-03 01:04:31,347 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-03 01:04:31,433 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id='SubmitCreate']")
+2022-10-03 01:04:37,411 - INFO - conftest.init_driver - Driver was closed
+2022-10-03 01:26:23,166 - INFO - conftest.read_config_file - Read configuration file
+2022-10-03 01:26:23,167 - INFO - conftest.config_browser - chrome browser configured
+2022-10-03 01:26:26,322 - INFO - conftest.init_driver - Driver was initialized
+2022-10-03 01:26:26,481 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-03 01:26:32,396 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-03 01:26:41,802 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-03 01:26:41,899 - INFO - base_page.enter_text - Typed  in element ('id', 'email')
+2022-10-03 01:26:41,973 - INFO - base_page.enter_text - Typed  in element ('xpath', "//input[@id='passwd']")
+2022-10-03 01:26:46,779 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id = 'SubmitLogin']")
+2022-10-03 01:26:49,241 - INFO - conftest.init_driver - Driver was closed
+2022-10-03 01:26:52,332 - INFO - conftest.init_driver - Driver was initialized
+2022-10-03 01:26:52,486 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-03 01:26:58,682 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-03 01:27:04,864 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-03 01:27:04,976 - INFO - base_page.enter_text - Typed test@test.com in element ('id', 'email')
+2022-10-03 01:27:05,052 - INFO - base_page.enter_text - Typed  in element ('xpath', "//input[@id='passwd']")
+2022-10-03 01:27:07,821 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id = 'SubmitLogin']")
+2022-10-03 01:27:10,100 - INFO - conftest.init_driver - Driver was closed
+2022-10-03 01:27:12,384 - INFO - conftest.init_driver - Driver was initialized
+2022-10-03 01:27:12,532 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-03 01:27:17,848 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-03 01:27:23,594 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-03 01:27:23,737 - INFO - base_page.enter_text - Typed testCheck@gmail.com in element ('id', 'email')
+2022-10-03 01:27:23,841 - INFO - base_page.enter_text - Typed WrongPassword in element ('xpath', "//input[@id='passwd']")
+2022-10-03 01:27:27,162 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id = 'SubmitLogin']")
+2022-10-03 01:27:29,454 - INFO - conftest.init_driver - Driver was closed
+2022-10-03 01:27:29,486 - INFO - conftest.read_config_file - Read configuration file
+2022-10-03 01:27:29,486 - INFO - conftest.config_browser - chrome browser configured
+2022-10-03 01:27:31,991 - INFO - conftest.init_driver - Driver was initialized
+2022-10-03 01:27:32,160 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-03 01:27:39,568 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-03 01:27:44,011 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-03 01:27:44,129 - INFO - base_page.enter_text - Typed testCheck@gmail.com in element ('xpath', "//input[@id='email_create']")
+2022-10-03 01:27:44,195 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id='SubmitCreate']")
+2022-10-03 01:27:49,298 - INFO - conftest.init_driver - Driver was closed
+2022-10-03 01:27:52,059 - INFO - conftest.init_driver - Driver was initialized
+2022-10-03 01:27:52,209 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-03 01:27:57,379 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-03 01:27:59,437 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-03 01:27:59,508 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id='SubmitCreate']")
+2022-10-03 01:28:02,826 - INFO - conftest.init_driver - Driver was closed
+2022-10-03 01:30:26,444 - INFO - conftest.read_config_file - Read configuration file
+2022-10-03 01:30:26,451 - INFO - conftest.config_browser - chrome browser configured
+2022-10-03 01:30:29,287 - INFO - conftest.init_driver - Driver was initialized
+2022-10-03 01:30:29,435 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-03 01:30:36,630 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-03 01:30:39,625 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-03 01:30:39,708 - INFO - base_page.enter_text - Typed  in element ('id', 'email')
+2022-10-03 01:30:39,787 - INFO - base_page.enter_text - Typed  in element ('xpath', "//input[@id='passwd']")
+2022-10-03 01:30:41,193 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id = 'SubmitLogin']")
+2022-10-03 01:30:43,452 - INFO - conftest.init_driver - Driver was closed
+2022-10-03 01:30:46,119 - INFO - conftest.init_driver - Driver was initialized
+2022-10-03 01:30:46,278 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-03 01:30:52,177 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-03 01:30:54,563 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-03 01:30:54,680 - INFO - base_page.enter_text - Typed test@test.com in element ('id', 'email')
+2022-10-03 01:30:54,757 - INFO - base_page.enter_text - Typed  in element ('xpath', "//input[@id='passwd']")
+2022-10-03 01:30:55,949 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id = 'SubmitLogin']")
+2022-10-03 01:30:58,243 - INFO - conftest.init_driver - Driver was closed
+2022-10-03 01:30:58,243 - INFO - conftest.read_config_file - Read configuration file
+2022-10-03 01:30:58,243 - INFO - conftest.config_browser - chrome browser configured
+2022-10-03 01:31:00,742 - INFO - conftest.init_driver - Driver was initialized
+2022-10-03 01:31:00,918 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-03 01:31:06,932 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-03 01:31:09,018 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-03 01:31:09,129 - INFO - base_page.enter_text - Typed testCheck@gmail.com in element ('xpath', "//input[@id='email_create']")
+2022-10-03 01:31:09,204 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id='SubmitCreate']")
+2022-10-03 01:31:14,093 - INFO - conftest.init_driver - Driver was closed
+2022-10-03 01:31:16,227 - INFO - conftest.init_driver - Driver was initialized
+2022-10-03 01:31:16,392 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-03 01:31:22,361 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-03 01:31:28,917 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-03 01:31:28,998 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id='SubmitCreate']")
+2022-10-03 01:31:32,986 - INFO - conftest.init_driver - Driver was closed
+2022-10-03 01:47:37,527 - INFO - conftest.read_config_file - Read configuration file
+2022-10-03 01:47:37,528 - INFO - conftest.config_browser - chrome browser configured
+2022-10-03 01:47:40,753 - INFO - conftest.init_driver - Driver was initialized
+2022-10-03 01:47:40,972 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-03 01:47:48,496 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-03 01:47:51,862 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-03 01:47:51,993 - INFO - base_page.enter_text - Typed testCheck@gmail.com in element ('id', 'email')
+2022-10-03 01:47:52,082 - INFO - base_page.enter_text - Typed WrongPassword in element ('xpath', "//input[@id='passwd']")
+2022-10-03 01:47:54,483 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id = 'SubmitLogin']")
+2022-10-03 01:47:56,830 - INFO - conftest.init_driver - Driver was closed
+2022-10-03 01:56:25,734 - INFO - conftest.read_config_file - Read configuration file
+2022-10-03 01:56:25,734 - INFO - conftest.config_browser - chrome browser configured
+2022-10-03 01:56:29,161 - INFO - conftest.init_driver - Driver was initialized
+2022-10-03 01:56:29,323 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-03 01:56:34,911 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-03 01:56:40,206 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-03 01:56:40,330 - INFO - base_page.enter_text - Typed testCheck@gmail.com in element ('id', 'email')
+2022-10-03 01:56:40,807 - INFO - base_page.enter_text - Typed Test12345 in element ('xpath', "//input[@id='passwd']")
+2022-10-03 01:56:44,026 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id = 'SubmitLogin']")
+2022-10-03 01:56:44,032 - INFO - base_page.get_page_title - Page title is "My account - My Store"
+2022-10-03 01:56:44,070 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//*[@class = 'header_user_info']//a[contains(text(),'Sign out')]")
+2022-10-03 01:56:48,602 - INFO - base_page.click - Clicked on element ('xpath', "//*[@class = 'header_user_info']//a[contains(text(),'Sign out')]")
+2022-10-03 01:56:50,834 - INFO - conftest.init_driver - Driver was closed
+2022-10-03 07:52:43,295 - INFO - conftest.read_config_file - Read configuration file
+2022-10-03 07:52:43,295 - INFO - conftest.config_browser - chrome browser configured
+2022-10-03 07:52:46,199 - INFO - conftest.init_driver - Driver was initialized
+2022-10-03 07:52:46,383 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-03 07:52:50,916 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-03 07:52:53,870 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-03 07:52:54,002 - INFO - base_page.enter_text - Typed testCheck@gmail.com in element ('id', 'email')
+2022-10-03 07:52:54,090 - INFO - base_page.enter_text - Typed Test12345 in element ('xpath', "//input[@id='passwd']")
+2022-10-03 07:52:56,532 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id = 'SubmitLogin']")
+2022-10-03 07:52:59,673 - INFO - base_page.click - Clicked on element ('xpath', "//a[@title='Home']")
+2022-10-03 07:52:59,820 - INFO - base_page.scroll_to - Scrolled to element using javascript <selenium.webdriver.remote.webelement.WebElement (session="88e93cbea3b4da45c42d63dc4846df75", element="2e7b7d5f-6dae-441e-be56-2103f91f0fd7")>
+2022-10-03 07:53:04,084 - INFO - base_page.click - Clicked on element ('xpath', "//a[@title='Proceed to checkout']")
+2022-10-03 07:53:04,206 - INFO - base_page.click - Clicked on element ('xpath', "//a[@title='Delete']")
+2022-10-03 07:53:18,284 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//*[@class = 'header_user_info']//a[contains(text(),'Sign out')]")
+2022-10-03 07:53:20,409 - INFO - base_page.click - Clicked on element ('xpath', "//*[@class = 'header_user_info']//a[contains(text(),'Sign out')]")
+2022-10-03 07:53:22,715 - INFO - conftest.init_driver - Driver was closed
+2022-10-03 07:53:22,725 - INFO - conftest.read_config_file - Read configuration file
+2022-10-03 07:53:22,725 - INFO - conftest.config_browser - chrome browser configured
+2022-10-03 07:53:25,037 - INFO - conftest.init_driver - Driver was initialized
+2022-10-03 07:53:25,247 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-03 07:53:30,137 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-03 07:53:32,182 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-03 07:53:32,302 - INFO - base_page.enter_text - Typed testCheck@gmail.com in element ('id', 'email')
+2022-10-03 07:53:32,382 - INFO - base_page.enter_text - Typed Test12345 in element ('xpath', "//input[@id='passwd']")
+2022-10-03 07:53:34,419 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id = 'SubmitLogin']")
+2022-10-03 07:53:34,423 - INFO - base_page.get_page_title - Page title is "My account - My Store"
+2022-10-03 07:53:34,458 - INFO - base_page.scroll_to - Scrolled to element using javascript ('xpath', "//*[@class = 'header_user_info']//a[contains(text(),'Sign out')]")
+2022-10-03 07:53:36,768 - INFO - base_page.click - Clicked on element ('xpath', "//*[@class = 'header_user_info']//a[contains(text(),'Sign out')]")
+2022-10-03 07:53:38,955 - INFO - conftest.init_driver - Driver was closed
+2022-10-03 07:53:41,436 - INFO - conftest.init_driver - Driver was initialized
+2022-10-03 07:53:41,556 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-03 07:53:46,573 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-03 07:53:48,626 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-03 07:53:48,710 - INFO - base_page.enter_text - Typed  in element ('id', 'email')
+2022-10-03 07:53:48,796 - INFO - base_page.enter_text - Typed  in element ('xpath', "//input[@id='passwd']")
+2022-10-03 07:53:50,248 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id = 'SubmitLogin']")
+2022-10-03 07:53:52,510 - INFO - conftest.init_driver - Driver was closed
+2022-10-03 07:53:54,932 - INFO - conftest.init_driver - Driver was initialized
+2022-10-03 07:53:55,129 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-03 07:54:00,515 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-03 07:54:03,072 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-03 07:54:03,191 - INFO - base_page.enter_text - Typed test@test.com in element ('id', 'email')
+2022-10-03 07:54:03,264 - INFO - base_page.enter_text - Typed  in element ('xpath', "//input[@id='passwd']")
+2022-10-03 07:54:04,466 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id = 'SubmitLogin']")
+2022-10-03 07:54:06,702 - INFO - conftest.init_driver - Driver was closed
+2022-10-03 07:54:09,006 - INFO - conftest.init_driver - Driver was initialized
+2022-10-03 07:54:09,173 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-03 07:54:14,003 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-03 07:54:15,970 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-03 07:54:16,090 - INFO - base_page.enter_text - Typed testCheck@gmail.com in element ('id', 'email')
+2022-10-03 07:54:16,178 - INFO - base_page.enter_text - Typed WrongPassword in element ('xpath', "//input[@id='passwd']")
+2022-10-03 07:54:17,313 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id = 'SubmitLogin']")
+2022-10-03 07:54:19,558 - INFO - conftest.init_driver - Driver was closed
+2022-10-03 07:54:19,558 - INFO - conftest.read_config_file - Read configuration file
+2022-10-03 07:54:19,558 - INFO - conftest.config_browser - chrome browser configured
+2022-10-03 07:54:21,808 - INFO - conftest.init_driver - Driver was initialized
+2022-10-03 07:54:22,021 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-03 07:54:28,395 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-03 07:54:33,400 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-03 07:54:33,518 - INFO - base_page.enter_text - Typed testCheck20@gmail.com in element ('xpath', "//input[@id='email_create']")
+2022-10-03 07:54:33,586 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id='SubmitCreate']")
+2022-10-03 07:54:38,472 - INFO - conftest.init_driver - Driver was closed
+2022-10-03 07:54:40,780 - INFO - conftest.init_driver - Driver was initialized
+2022-10-03 07:54:40,933 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-03 07:54:45,577 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-03 07:54:48,318 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-03 07:54:48,440 - INFO - base_page.enter_text - Typed testCheck@gmail.com in element ('xpath', "//input[@id='email_create']")
+2022-10-03 07:54:48,512 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id='SubmitCreate']")
+2022-10-03 07:54:51,806 - INFO - conftest.init_driver - Driver was closed
+2022-10-03 07:54:54,036 - INFO - conftest.init_driver - Driver was initialized
+2022-10-03 07:54:54,202 - INFO - conftest.init_driver - Browser's window was maximized
+2022-10-03 07:54:58,732 - INFO - conftest.init_driver - Navigated to http://automationpractice.com/index.php
+2022-10-03 07:55:01,119 - INFO - base_page.click - Clicked on element ('xpath', "//a[contains(text(),'Sign in')]")
+2022-10-03 07:55:01,201 - INFO - base_page.click - Clicked on element ('xpath', "//button[@id='SubmitCreate']")
+2022-10-03 07:55:05,041 - INFO - conftest.init_driver - Driver was closed
